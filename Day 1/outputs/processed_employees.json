@@ -1,0 +1,27 @@
+{
+    "company": "Linkific",
+    "total_data_engineers": 2,
+    "employees": [
+        {
+            "id": 101,
+            "name": "Asha",
+            "department": "Data Engineering",
+            "salary": 45000,
+            "skills": [
+                "Python",
+                "SQL"
+            ]
+        },
+        {
+            "id": 103,
+            "name": "Priya",
+            "department": "Data Engineering",
+            "salary": 52000,
+            "skills": [
+                "Python",
+                "Pandas",
+                "SQL"
+            ]
+        }
+    ]
+}

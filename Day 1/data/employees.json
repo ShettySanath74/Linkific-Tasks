@@ -1,0 +1,45 @@
+{
+    "company": "Linkific",
+    "employees": [
+        {
+            "id": 101,
+            "name": "Asha",
+            "department": "Data Engineering",
+            "salary": 45000,
+            "skills": [
+                "Python",
+                "SQL"
+            ]
+        },
+        {
+            "id": 102,
+            "name": "Rahul",
+            "department": "Software Engineering",
+            "salary": 38000,
+            "skills": [
+                "Java",
+                "Python"
+            ]
+        },
+        {
+            "id": 103,
+            "name": "Priya",
+            "department": "Data Engineering",
+            "salary": 52000,
+            "skills": [
+                "Python",
+                "Pandas",
+                "SQL"
+            ]
+        },
+        {
+            "id": 104,
+            "name": "Kiran",
+            "department": "Testing",
+            "skills": [
+                "Testing",
+                "SQL"
+            ]
+        }
+    ]
+}
