@@ -1,0 +1,212 @@
+[
+  {
+    "sha": "50082b8d89392b7655eb9a2790731b613cbc620f",
+    "author": "Cody Maloney",
+    "date": "2026-10-13T10:21:19Z",
+    "message": "gh-87613: Use AC vectorcall for float (GH-158201)\n\nMove float.__new__ to AC vectorcall dropping the hand-written.\n\nRunning microbenchmark from the original add (`pyperf timeit \"float(0)\"`\nin gh-86039) shows no significant performance change.\n\nThe generated name matches the hand-written name so the tp_vectorcall\nslot is unchanged.\n\nUpdate the vectorcall slot-parity test to include float.",
+    "url": "https://github.com/python/cpython/commit/50082b8d89392b7655eb9a2790731b613cbc620f"
+  },
+  {
+    "sha": "85bca2dbe9ab293ad85ee0d5fa3c8bfdc5e60f2b",
+    "author": "dependabot[bot]",
+    "date": "2026-10-13T10:09:32Z",
+    "message": "build(deps): bump follow-redirects from 1.15.9 to 1.16.0 in /Platforms/emscripten/browser_test (#158394)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "url": "https://github.com/python/cpython/commit/85bca2dbe9ab293ad85ee0d5fa3c8bfdc5e60f2b"
+  },
+  {
+    "sha": "c04ad8ce36e35fba85468eec8a54f1688fa16972",
+    "author": "dependabot[bot]",
+    "date": "2026-10-13T07:46:52Z",
+    "message": "build(deps): bump the pip group across 1 directory with 4 updates (#158387)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "url": "https://github.com/python/cpython/commit/c04ad8ce36e35fba85468eec8a54f1688fa16972"
+  },
+  {
+    "sha": "627eabf31cf9a2ab39761492493e1e06a6526e9b",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-13T04:37:55Z",
+    "message": "gh-129724: Intern string constants in the compiler, not per code object (GH-159193)\n\nThe compiler merges equal constants of a module through its constant\ncache.  intern_constants() then ran on each code object and rebuilt a\nfrozenset (or, in the free-threaded build, a slice) when one of its\nstrings was replaced by an already interned one, so a constant shared by\nseveral functions was copied for some of them depending on which strings\nhappened to be interned in the process.  The class body's __qualname__\nconstant and co_qualname had the same problem.  marshal then wrote\ndifferent bytes for the same source.\n\nIntern the eligible strings of the final constants of each code unit\nafter optimization and before the code object is created.  Tuples are\nupdated in place; a frozenset or slice is rebuilt once and stored in the\nconstant cache so that later units get the same object.  The same code\nis used in both builds.\n\nWhich strings are interned does not change, except that identifier-like\nstrings in slice constants are now interned in the default build too.\n\nTestConstantsIdentity compares the identity graph and the marshal\noutput of code compiled in differently prepared processes, including\nnames tuples shared with constants.",
+    "url": "https://github.com/python/cpython/commit/627eabf31cf9a2ab39761492493e1e06a6526e9b"
+  },
+  {
+    "sha": "48f18f0adb7ecbde409f56409ef54ccce72ca4c3",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-13T04:22:29Z",
+    "message": "gh-129724: gh-156504: Make marshal output independent of reference counts (GH-159192)\n\nThe marshal writer decided whether an object can be referenced later\n(FLAG_REF) from its reference count, so the output for the same value\ndepended on what else in the process held a reference to its parts, and\ndiffered between the default and the free-threaded builds' view of the\nsame objects.  This is the remaining cause of gh-129724 and the cause of\ngh-156504.\n\nFLAG_REF is now set exactly on the objects which are written more than\nonce in the dump.  The writer still makes one pass: it records the\nposition of the type byte of each object it remembers and of each\nTYPE_REF, and when the dump is complete it sets the flags and renumbers\nthe references.  A reference count of one is only used to skip the\nhashtable.  Interned strings are no longer flagged unconditionally.\n\nThe reader is unchanged and the format version is not bumped: both the\nold and the new output are loaded by old and new readers.\n\nPyMarshal_WriteObjectToFile() now builds the data in memory and writes\nit with one fwrite(), since the flags are only known at the end.\nNothing is written if the object cannot be marshalled.",
+    "url": "https://github.com/python/cpython/commit/48f18f0adb7ecbde409f56409ef54ccce72ca4c3"
+  },
+  {
+    "sha": "f9132f1c555f0e47d7e38251f96adaf0355f9c08",
+    "author": "Christian Aurich Zanettini Martins",
+    "date": "2026-10-13T03:07:34Z",
+    "message": "gh-159285: Fix crash when copying an empty dict fails with MemoryError (#159286)\n\ncopy_lock_held_untracked() asserted that the new empty dict was not\ntracked by the GC without checking whether its allocation had failed,\nso a debug build dereferenced NULL instead of raising MemoryError. This\naffected dict.copy(), PyDict_Copy() and _PyDict_CopyAsDict(), which\ntype() uses for the class namespace.",
+    "url": "https://github.com/python/cpython/commit/f9132f1c555f0e47d7e38251f96adaf0355f9c08"
+  },
+  {
+    "sha": "64018ac45cbc3f408412ab2c37f47f46bc8f84a1",
+    "author": "adam j hartz",
+    "date": "2026-10-12T23:48:41Z",
+    "message": "gh-159278: Fix incorrect links from duplicate `customization` label in docs (GH-159279)",
+    "url": "https://github.com/python/cpython/commit/64018ac45cbc3f408412ab2c37f47f46bc8f84a1"
+  },
+  {
+    "sha": "6979003a1d73383ce798eb1301fe93d4d74b1903",
+    "author": "tonghuaroot (童话)",
+    "date": "2026-10-12T23:37:58Z",
+    "message": "gh-152692: Fix annotationlib.type_repr() for bound built-in methods (#152693)\n\ntype_repr() returned a string naming a nonexistent module None -- e.g.\ntype_repr([].append) == 'None.list.append' -- for bound built-in methods,\nwhose __module__ is None.\n\nReturn the qualified name when __module__ is None, as already done for the\n\"builtins\" module.",
+    "url": "https://github.com/python/cpython/commit/6979003a1d73383ce798eb1301fe93d4d74b1903"
+  },
+  {
+    "sha": "767e9184679214e59efafe9dce1cf52bf6948740",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-12T22:32:24Z",
+    "message": "gh-155717: Reword the NEWS entry for the default start method change (GH-159273)\n\nSay that the change applies when there is no writable temporary\ndirectory and that starting a process previously failed there.",
+    "url": "https://github.com/python/cpython/commit/767e9184679214e59efafe9dce1cf52bf6948740"
+  },
+  {
+    "sha": "48ddda1987a17fa96d74409b9eccb7379f61816f",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-12T22:13:51Z",
+    "message": "gh-155717: Determine multiprocessing's default start method lazily (GH-159254)\n\ngh-155827 made `import multiprocessing` check whether the temporary\ndirectory is writeable in order to choose between \"forkserver\" and\n\"spawn\" as the default start method. That check ran at import time and\npulled in `multiprocessing.util`, `subprocess`, `tempfile`, `shutil`\nand `random`, noticeably slowing down the import for every program,\nincluding ones that never start a process and every spawned child,\nthe fork server and the resource tracker.\n\nThe default start method is now determined the first time it is needed\ninstead: on the first `get_context()`, `get_start_method()`,\n`get_all_start_methods()` or default `Process` start.\n`multiprocessing.util` goes back to importing `tempfile` only where it\nis used.\n\nAlso include the fix from gh-158410 by Vyron Vasileiadis, along with a\ntest adapted from that PR: when `tempfile` finds no usable temporary\ndirectory at all, the check now reports that instead of raising\n`FileNotFoundError`, so that \"spawn\" is chosen.\n\nThe regression was reported, and the lazy approach suggested, by\nLeandro Damascena in\nhttps://github.com/python/cpython/issues/155717#issuecomment-6121012448\n\nCo-authored-by: Vyron Vasileiadis <hi@fedonman.com>",
+    "url": "https://github.com/python/cpython/commit/48ddda1987a17fa96d74409b9eccb7379f61816f"
+  },
+  {
+    "sha": "0768eed8b5890bf8242a4ef04f0c45f875e17c68",
+    "author": "An Long",
+    "date": "2026-10-12T20:50:59Z",
+    "message": "gh-81057: Inline single-use error messages in _decimal and make the rest const (#156809)\n\nCo-authored-by: Pieter Eendebak <pieter.eendebak@gmail.com>",
+    "url": "https://github.com/python/cpython/commit/0768eed8b5890bf8242a4ef04f0c45f875e17c68"
+  },
+  {
+    "sha": "ce5c012a8acf29b111db42eba342d72885f3e8be",
+    "author": "Hugo van Kemenade",
+    "date": "2026-10-12T20:46:02Z",
+    "message": "Fix mypy bump for Tools/peg_generator/pegen/build.py (#159256)",
+    "url": "https://github.com/python/cpython/commit/ce5c012a8acf29b111db42eba342d72885f3e8be"
+  },
+  {
+    "sha": "178a5ef85e166988782650c6f9c82d763553033d",
+    "author": "Hugo van Kemenade",
+    "date": "2026-10-12T20:40:04Z",
+    "message": "Dependabot: no longer bump pip for security-only 3.13 (#159253)",
+    "url": "https://github.com/python/cpython/commit/178a5ef85e166988782650c6f9c82d763553033d"
+  },
+  {
+    "sha": "e29cce5ea81f94de936521cada96f2ffd5d42df1",
+    "author": "Aman Prajapati",
+    "date": "2026-10-12T18:49:57Z",
+    "message": "gh-156026: document tar filter link targets (GH-156056)",
+    "url": "https://github.com/python/cpython/commit/e29cce5ea81f94de936521cada96f2ffd5d42df1"
+  },
+  {
+    "sha": "fd671619e7054706fd62c187749c806f18f068e1",
+    "author": "An Long",
+    "date": "2026-10-12T18:38:41Z",
+    "message": "gh-136563: Update `concurrent.interpreters` module documentation (GH-139358)\n\nCo-authored-by: Stan Ulbrych <89152624+StanFromIreland@users.noreply.github.com>",
+    "url": "https://github.com/python/cpython/commit/fd671619e7054706fd62c187749c806f18f068e1"
+  },
+  {
+    "sha": "f674db18032be549773094ff8ae4225f7acfa29a",
+    "author": "Abhishek Tiwari",
+    "date": "2026-10-12T18:33:36Z",
+    "message": "gh-149816: Fix race in subtype_getweakref in free-threading build (gh-150247)",
+    "url": "https://github.com/python/cpython/commit/f674db18032be549773094ff8ae4225f7acfa29a"
+  },
+  {
+    "sha": "9c15cc9d699f05031f635eec65765f4012146d15",
+    "author": "Wulian233",
+    "date": "2026-10-12T18:09:50Z",
+    "message": "gh-159113: Update `PCBuild/find_python.bat` to allow discovery of Python 3.14 and 3.15 (GH-159114)",
+    "url": "https://github.com/python/cpython/commit/9c15cc9d699f05031f635eec65765f4012146d15"
+  },
+  {
+    "sha": "899270491614903b7de986135f884cae1b4dd912",
+    "author": "Victor Stinner",
+    "date": "2026-10-12T17:56:53Z",
+    "message": "gh-144175: Remove internal _PyArg_ParseStack() function (#159150)\n\nReplace internal _PyArg_ParseStack() with public PyArg_ParseArray()\nin Argument Clinic.",
+    "url": "https://github.com/python/cpython/commit/899270491614903b7de986135f884cae1b4dd912"
+  },
+  {
+    "sha": "16309c4df8472d8f1b3d074c425d03e74922f96f",
+    "author": "smalash",
+    "date": "2026-10-12T17:45:51Z",
+    "message": "gh-151914: Remove duplicate sections from What's New in Python 3.16 (#159223)",
+    "url": "https://github.com/python/cpython/commit/16309c4df8472d8f1b3d074c425d03e74922f96f"
+  },
+  {
+    "sha": "41a10efc6c7383fc01703d504fd0cee84014431e",
+    "author": "Peter Bierma",
+    "date": "2026-10-12T17:27:55Z",
+    "message": "gh-52008: Document that `ctypes.CDLL` can only observe `errno` from its own C runtime (GH-159239)",
+    "url": "https://github.com/python/cpython/commit/41a10efc6c7383fc01703d504fd0cee84014431e"
+  },
+  {
+    "sha": "cfea838851a3d4c78bd099202e1fb818057a7a04",
+    "author": "David Eisert",
+    "date": "2026-10-12T17:12:23Z",
+    "message": "gh-62944: Add performance note for out-of-order extraction from compressed archives (GH-151115)\n\nExtracting members in a different order than they appear in a compressed\ntarfile requires re-decompressing from the beginning of the stream for each\nbackward seek. Add a note to tarfile.open() documenting this and recommending\nin-order extraction or use of TarFile.extractall() for best performance.",
+    "url": "https://github.com/python/cpython/commit/cfea838851a3d4c78bd099202e1fb818057a7a04"
+  },
+  {
+    "sha": "0babcdd54775bd1cc6bc745767c13d5baa3aedcc",
+    "author": "Suren Nihalani",
+    "date": "2026-10-12T15:23:35Z",
+    "message": "gh-152315: Add a suggestion for missing `self` parameters (GH-152326)",
+    "url": "https://github.com/python/cpython/commit/0babcdd54775bd1cc6bc745767c13d5baa3aedcc"
+  },
+  {
+    "sha": "5e049c371f0fdbf07bdf058ee383d6228b391546",
+    "author": "Russell Keith-Magee",
+    "date": "2026-10-12T06:37:32Z",
+    "message": "gh-159211: Omit test diagnostics from iOS testbed runs (#159212)\n\nOmit test diagnostics from iOS testbed runs. These diagnostics are rarely \nhelpful in the context of an iOS test failure.",
+    "url": "https://github.com/python/cpython/commit/5e049c371f0fdbf07bdf058ee383d6228b391546"
+  },
+  {
+    "sha": "03df94188e7c9052b3c511019b4e44b3ac5b3398",
+    "author": "Russell Keith-Magee",
+    "date": "2026-10-12T05:47:35Z",
+    "message": "gh-159210: Disable virtualenv enforcement when updating certificates. (#159214)\n\nEnsures that the macOS Install Certificates script can run when the user has\nPIP_REQUIRE_VIRTUALENV or PIP_REQUIRE_VENV set in their shell.",
+    "url": "https://github.com/python/cpython/commit/03df94188e7c9052b3c511019b4e44b3ac5b3398"
+  },
+  {
+    "sha": "87d4d44071f0ab0b22f63429d9d024a21e631a5e",
+    "author": "Russell Keith-Magee",
+    "date": "2026-10-12T05:42:26Z",
+    "message": "gh-115119: Remove deprecated --with-system-mpdec option from iOS build. (#159215)\n\nRemove deprecated --with-system-mpdec option from iOS build.",
+    "url": "https://github.com/python/cpython/commit/87d4d44071f0ab0b22f63429d9d024a21e631a5e"
+  },
+  {
+    "sha": "aab474a35b7d47aa3404db0fd5cb2c0314090941",
+    "author": "Danny Lin",
+    "date": "2026-10-12T00:13:52Z",
+    "message": "gh-51067: Remove trailing space in `_Repacker.repack()` error message (GH-152138)\n\nRemove an accidental trailing space inside the `BadZipFile` exception\nstring literal to ensure clean exception messages.",
+    "url": "https://github.com/python/cpython/commit/aab474a35b7d47aa3404db0fd5cb2c0314090941"
+  },
+  {
+    "sha": "22762c0dd52bf7038cfc8a2b6ea7e8d58825160c",
+    "author": "Feodor Fitsner",
+    "date": "2026-10-11T23:19:17Z",
+    "message": "gh-159003: Document Flet in macOS, iOS, and Android guides (#159042)\n\nAdds Flet to the list of GUI options for macOS, iOS and Android.",
+    "url": "https://github.com/python/cpython/commit/22762c0dd52bf7038cfc8a2b6ea7e8d58825160c"
+  },
+  {
+    "sha": "1967a87ad395552dbd1e16fd3f13d3b4b2f694de",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-11T22:53:04Z",
+    "message": "gh-159184: Do not compare set elements when marshalling a set (GH-159196)\n\nSet elements are written in the order of their dumps.  They were sorted\nas (dump, element) pairs, so elements with the same dump were compared.\nThat raised TypeError for a set of several complex NaNs, which the\ncompiler can produce by constant folding, making the module impossible\nto marshal.\n\nSort (dump, index, element) tuples, in which the indexes are all\ndifferent.  Elements with the same dump stay in the order of the set,\nas float NaNs did before.",
+    "url": "https://github.com/python/cpython/commit/1967a87ad395552dbd1e16fd3f13d3b4b2f694de"
+  },
+  {
+    "sha": "b3714a5fb7a3aadd72134ee0710b22519c1df09a",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-11T21:51:20Z",
+    "message": "gh-159185: Document that PyMarshal_WriteObjectToFile can silently truncate before 3.16 (GH-159201)\n\ngh-159185: Document that the PyMarshal file writers can fail silently before 3.16\n\nIn Python 3.15 and earlier, PyMarshal_WriteObjectToFile() ignores most\nmarshalling errors and all I/O errors: it returns without setting the\nerror indicator after writing only part of the data.\nPyMarshal_WriteLongToFile() ignores I/O errors in the same way.  That\nwas fixed in 3.16 by gh-155907, which is not backported.  Tell the users\nof the older versions so that they can check what was written.",
+    "url": "https://github.com/python/cpython/commit/b3714a5fb7a3aadd72134ee0710b22519c1df09a"
+  },
+  {
+    "sha": "cd71799c47802f87e1469cc97cc99f5ce6cea27c",
+    "author": "Gregory P. Smith",
+    "date": "2026-10-11T21:09:04Z",
+    "message": "gh-159185: Fix marshalling of a set modified while its elements are marshalled (GH-159195)\n\nMarshalling a set element can run Python code (__buffer__, an audit\nhook) which changes the set.  The number of elements was read before\nthe loop, so a set which grew was written past the end of the list and\none which shrank left NULL items in the list which was then sorted.\nRaise RuntimeError(\"set changed size during iteration\") instead.",
+    "url": "https://github.com/python/cpython/commit/cd71799c47802f87e1469cc97cc99f5ce6cea27c"
+  }
+]

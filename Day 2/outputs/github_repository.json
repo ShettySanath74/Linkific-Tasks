@@ -1,0 +1,11 @@
+{
+  "name": "cpython",
+  "full_name": "python/cpython",
+  "description": "The Python programming language",
+  "stars": 77633,
+  "forks": 38151,
+  "open_issues": 9709,
+  "language": "Python",
+  "html_url": "https://github.com/python/cpython",
+  "default_branch": "main"
+}
