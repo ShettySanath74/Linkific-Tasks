@@ -1,0 +1,128 @@
+[
+    {
+        "product": "Packard 255 G2",
+        "price": "$416.99",
+        "description": "15.6\", AMD E2-3800 1.3GHz, 4GB, 500GB, Windows 8.1",
+        "rating_count": "2 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+    },
+    {
+        "product": "Aspire E1-510",
+        "price": "$306.99",
+        "description": "15.6\", Pentium N3520 2.16GHz, 4GB, 500GB, Linux",
+        "rating_count": "2 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+    },
+    {
+        "product": "ThinkPad T540p",
+        "price": "$1178.99",
+        "description": "15.6\", Core i5-4200M, 4GB, 500GB, Win7 Pro 64bit",
+        "rating_count": "2 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+    },
+    {
+        "product": "ProBook",
+        "price": "$739.99",
+        "description": "14\", Core i5 2.6GHz, 4GB, 500GB, Win7 Pro 64bit",
+        "rating_count": "8 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+    },
+    {
+        "product": "ThinkPad X240",
+        "price": "$1311.99",
+        "description": "12.5\", Core i5-4300U, 8GB, 240GB SSD, Win7 Pro 64bit",
+        "rating_count": "12 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+    },
+    {
+        "product": "Aspire E1-572G",
+        "price": "$581.99",
+        "description": "15.6\", Core i5-4200U, 8GB, 1TB, Radeon R7 M265, Windows 8.1",
+        "rating_count": "2 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+    },
+    {
+        "product": "ThinkPad Yoga",
+        "price": "$1033.99",
+        "description": "12.5\" Touch, Core i3-4010U, 4GB, 500GB + 16GB SSD Cache,",
+        "rating_count": "13 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2"
+    },
+    {
+        "product": "Pavilion",
+        "price": "$609.99",
+        "description": "15.6\", Core i5-4200U, 6GB, 750GB, Windows 8.1",
+        "rating_count": "4 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2"
+    },
+    {
+        "product": "Inspiron 15",
+        "price": "$745.99",
+        "description": "Moon Silver, 15.6\", Core i7-4510U, 8GB, 1TB, Radeon HD R7 M265 2GB,",
+        "rating_count": "12 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2"
+    },
+    {
+        "product": "Dell XPS 13",
+        "price": "$1281.99",
+        "description": "13.3\" Touch, Core i5-4210U, 8GB, 128GB SSD, Windows 8.1",
+        "rating_count": "4 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2"
+    },
+    {
+        "product": "ThinkPad X230",
+        "price": "$1244.99",
+        "description": "12.5\", Core i5 2.6GHz, 8GB, 180GB SSD, Win7 Pro 64bit",
+        "rating_count": "10 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2"
+    },
+    {
+        "product": "HP 250 G3",
+        "price": "$520.99",
+        "description": "15.6\", Core i5-4210U, 4GB, 500GB, Windows 8.1",
+        "rating_count": "13 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2"
+    },
+    {
+        "product": "ThinkPad Yoga",
+        "price": "$1223.99",
+        "description": "12.5\" Touch, Core i5 4200U, 8GB, 500GB + 16GB SSD Cache, Windows",
+        "rating_count": "2 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=3"
+    },
+    {
+        "product": "HP 350 G1",
+        "price": "$577.99",
+        "description": "15.6\", Core i5-4200U, 4GB, 750GB, Radeon HD8670M 2GB, Windows",
+        "rating_count": "10 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=3"
+    },
+    {
+        "product": "Asus VivoBook Max",
+        "price": "$399",
+        "description": "Asus VivoBook Max X541NA-GQ041 Black Chocolate, 15.6\" HD, Pentium N4200 1.1GHz, 4GB, 500GB, Windows 10 Home",
+        "rating_count": "4 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=3"
+    },
+    {
+        "product": "Dell Vostro 15",
+        "price": "$488.78",
+        "description": "Dell Vostro 15 (3568) Black, 15.6\" FHD, Core i5-7200U, 4GB, 128GB SSD, Radeon R5 M420 2GB, Linux",
+        "rating_count": "14 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=3"
+    },
+    {
+        "product": "Acer Spin 5",
+        "price": "$564.98",
+        "description": "Acer Spin 5 SP513-51 Black, 13.3\" FHD Touch, Core i3-7100U, 4GB, 128GB SSD, Windows 10 Home",
+        "rating_count": "0 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=3"
+    },
+    {
+        "product": "Acer Aspire A515-51-5654",
+        "price": "$679",
+        "description": "Acer Aspire A515-51-5654, Black, 15.6\", FHD, Core i5-8250U, 8GB DDR4, 256GB SSD, Windows 10 Home, ENG",
+        "rating_count": "9 reviews",
+        "source_url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=3"
+    }
+]
