@@ -1,0 +1,7 @@
+Order_ID,Customer,Category,Amount,Quantity,Total_Value,Discount,Final_Amount,Category_Code,Sales_Rank,Order_Size
+101,Asha,Electronics,1500,2,3000,300.0,2700.0,ELEC,1,Medium
+106,Sara,Groceries,650,4,2600,260.0,2340.0,FOOD,2,Medium
+103,Meera,Electronics,2500,1,2500,250.0,2250.0,ELEC,3,Medium
+102,Ravi,Clothing,800,3,2400,240.0,2160.0,CLOTH,4,Medium
+105,John,Clothing,1200,2,2400,240.0,2160.0,CLOTH,4,Medium
+104,Kiran,Groceries,400,5,2000,200.0,1800.0,FOOD,5,Medium

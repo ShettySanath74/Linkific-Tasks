@@ -1,0 +1,10 @@
+Order_ID,Customer,City,Category,Amount,Quantity
+1001, Asha ,Mangalore,Electronics,1500,2.0
+1002,RAVI, Udupi,Clothing,800,3.0
+1003,Meera,MANGALORE,Electronics,2500,1.0
+1004,Kiran,Bangalore,Food,400,5.0
+1005,John,Udupi,Clothing,1200,2.0
+1005,John,Udupi,Clothing,1200,2.0
+1006,,,Food,650,
+1007,Sara,Bangalore,Electronics,1800,1.0
+1008,Asha,Mangalore,Food,700,3.0

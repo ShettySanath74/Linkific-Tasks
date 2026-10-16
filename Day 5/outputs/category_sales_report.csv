@@ -1,0 +1,4 @@
+category,total_sales,average_order_value,order_count,units_sold
+Clothing,4320.0,2160.0,2,5
+Electronics,6570.0,2190.0,3,4
+Food,3690.0,1230.0,3,8

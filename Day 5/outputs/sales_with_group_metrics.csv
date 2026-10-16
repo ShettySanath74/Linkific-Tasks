@@ -1,0 +1,9 @@
+Order_ID,Customer,City,Category,Amount,Quantity,Sales,City_Total_Sales,City_Sales_Share_Percent
+101,Asha,Mangalore,Electronics,1500,2,3000,7600,39.47
+102,Ravi,Udupi,Clothing,800,3,2400,6600,36.36
+103,Meera,Mangalore,Electronics,2500,1,2500,7600,32.89
+104,Kiran,Bangalore,Food,400,5,2000,4600,43.48
+105,John,Udupi,Clothing,1200,2,2400,6600,36.36
+106,Sara,Bangalore,Food,650,4,2600,4600,56.52
+107,Asha,Mangalore,Food,700,3,2100,7600,27.63
+108,Ravi,Udupi,Electronics,1800,1,1800,6600,27.27

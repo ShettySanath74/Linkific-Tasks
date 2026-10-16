@@ -1,0 +1,7 @@
+order_id,customer,city,amount,quantity
+101,Asha,Mangalore,1500.0,2
+102,Ravi,Udupi,2000.0,4
+103,Meera,Mangalore,2000.0,3
+104,Kiran,Bangalore,3000.0,5
+105,John,Unknown,2500.0,0
+106,Unknown,Mysore,1800.0,2

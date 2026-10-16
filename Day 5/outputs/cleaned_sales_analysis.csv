@@ -1,0 +1,9 @@
+order_id,customer,city,category,unit_price,quantity,sales_value,discount,final_sales,sales_band
+1001,Asha,Mangalore,Electronics,1500,2,3000,300.0,2700.0,Medium
+1002,Ravi,Udupi,Clothing,800,3,2400,240.0,2160.0,Medium
+1003,Meera,Mangalore,Electronics,2500,1,2500,250.0,2250.0,Medium
+1004,Kiran,Bangalore,Food,400,5,2000,200.0,1800.0,Medium
+1005,John,Udupi,Clothing,1200,2,2400,240.0,2160.0,Medium
+1006,Unknown,Unknown,Food,650,0,0,0.0,0.0,Small
+1007,Sara,Bangalore,Electronics,1800,1,1800,180.0,1620.0,Medium
+1008,Asha,Mangalore,Food,700,3,2100,210.0,1890.0,Medium
