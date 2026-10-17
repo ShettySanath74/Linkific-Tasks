@@ -1,0 +1,6 @@
+employee_id,name,department_id,department,_merge
+101.0,Asha,1,Engineering,both
+103.0,Meera,1,Engineering,both
+102.0,Ravi,2,Analytics,both
+104.0,Kiran,3,,left_only
+,,4,Marketing,right_only

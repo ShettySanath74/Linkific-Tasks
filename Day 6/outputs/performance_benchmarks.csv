@@ -1,0 +1,7 @@
+test,seconds
+Python list comprehension,0.047648199994000606
+NumPy vectorization,0.001345600001513958
+Pandas apply,0.039284200000111014
+Pandas vectorized,0.0016548999992664903
+DataFrame query,0.028998699999647215
+Boolean indexing,0.011486899995361455
