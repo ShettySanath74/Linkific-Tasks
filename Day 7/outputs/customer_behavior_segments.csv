@@ -1,0 +1,6 @@
+customer,order_count,total_spent,average_order_value,total_units,spending_segment
+Meera,3,6600,2200.0,4,High
+Asha,3,6000,2000.0,7,High
+Arjun,2,3400,1700.0,5,Medium
+Kiran,2,2800,1400.0,4,Medium
+Rahul,2,2700,1350.0,4,Medium

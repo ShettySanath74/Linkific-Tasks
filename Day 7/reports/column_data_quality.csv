@@ -1,0 +1,9 @@
+Column,Data Type,Missing Count,Missing Percentage,Unique Values
+order_id,int64,0,0.0,12
+customer,str,0,0.0,5
+category,str,0,0.0,3
+quantity,int64,0,0.0,4
+unit_price,int64,0,0.0,10
+order_date,str,0,0.0,12
+rating,float64,1,7.69,3
+sales,int64,0,0.0,9

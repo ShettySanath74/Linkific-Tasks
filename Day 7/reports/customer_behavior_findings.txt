@@ -1,0 +1,5 @@
+Unique customers: 5
+Unique orders after duplicate removal: 12
+Highest-spending customer: Meera
+Highest customer spending: 6600.00
+Most common spending segment: Medium

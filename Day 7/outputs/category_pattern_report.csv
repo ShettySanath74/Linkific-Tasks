@@ -1,0 +1,4 @@
+category,total_orders,units_sold,total_sales,average_order_value
+Electronics,4,6,9700,2425.0
+Clothing,4,12,6100,1525.0
+Home,4,6,5700,1425.0

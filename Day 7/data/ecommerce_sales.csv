@@ -1,0 +1,15 @@
+
+order_id,customer,category,quantity,unit_price,order_date,rating
+1001,Asha,Electronics,2,1200,2026-01-05,5
+1002,Rahul,Clothing,3,500,2026-01-08,4
+1003,Meera,Electronics,1,2500,2026-01-12,5
+1004,Arjun,Home,2,800,2026-01-15,3
+1005,Asha,Clothing,4,450,2026-02-02,4
+1006,Rahul,Home,1,1200,2026-02-08,4
+1007,Meera,Electronics,2,1500,2026-02-12,5
+1008,Arjun,Clothing,3,600,2026-02-18,3
+1009,Kiran,Home,2,900,2026-03-03,4
+1010,Asha,Electronics,1,1800,2026-03-09,5
+1011,Kiran,Clothing,2,500,2026-03-14,
+1012,Meera,Home,1,1100,2026-03-20,4
+1012,Meera,Home,1,1100,2026-03-20,4

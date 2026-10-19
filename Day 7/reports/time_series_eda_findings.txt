@@ -1,0 +1,7 @@
+Start date: 2026-01-05
+End date: 2026-03-20
+Total sales: 21500.00
+Average daily sales: 286.67
+Highest daily sales: 3000.00
+Lowest daily sales: 0.00
+Number of days: 75
