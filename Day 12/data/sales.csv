@@ -1,0 +1,6 @@
+order_id,customer,product,quantity,unit_price,updated_at
+1001,Asha,Laptop,1,55000,2026-10-25 10:00:00
+1002,Rahul,Mouse,2,750,2026-10-25 11:30:00
+1003,Meera,Keyboard,1,1800,2026-10-25 12:00:00
+1004,Arjun,Monitor,2,12000,2026-10-25 13:15:00
+1005,Asha,Mouse,1,750,2026-10-26 09:00:00

@@ -1,0 +1,16 @@
+@'
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Generated ETL outputs
+logs/
+staging/
+warehouse/
+*.db
+'@ | Set-Content "C:\Users\Comp\Linkific-Tasks-Upload\Day 12\.gitignore"
