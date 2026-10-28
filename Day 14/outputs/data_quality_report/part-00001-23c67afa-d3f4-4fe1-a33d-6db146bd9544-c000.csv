@@ -1,0 +1,2 @@
+check_name,status,details
+Non-empty dataset,PASS,At least one record exists

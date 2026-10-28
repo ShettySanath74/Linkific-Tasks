@@ -1,0 +1,7 @@
+order_id,customer,category,quantity,unit_price
+201,Aarav,Electronics,2,15000
+201,Diya,Furniture,1,12000
+202,,Clothing,3,800
+203,Rohan,Electronics,0,5000
+204,Isha,Clothing,2,-100
+
