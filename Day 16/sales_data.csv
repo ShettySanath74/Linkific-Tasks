@@ -1,0 +1,9 @@
+OrderID,OrderDate,Region,Category,Sales,Profit
+1001,2026-01-05,North,Electronics,1200,240
+1002,2026-01-08,South,Furniture,850,110
+1003,2026-01-12,East,Clothing,420,95
+1004,2026-02-02,West,Electronics,1600,320
+1005,2026-02-10,North,Furniture,700,80
+1006,2026-02-18,South,Clothing,560,140
+1007,2026-03-03,East,Electronics,950,190
+1008,2026-03-15,West,Furniture,1100,165
