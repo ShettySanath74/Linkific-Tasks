@@ -1,0 +1,5 @@
+customer_id,name,email,phone,join_date
+1,"  Ananya Rao  ","ANANYA.RAO@example.com","+91 98765-43210","03-11-2026"
+2,"Rahul!!! Shetty","rahul.shetty@example.com","8765432109","2026/10/28"
+3," Meera  Nair ","invalid-email","080-1234-5678","31-02-2026"
+4,"Kiran@Patil","kiran.patil@zoe.in"," +91 9988776655 ","15/09/2026"

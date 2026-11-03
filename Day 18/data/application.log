@@ -1,0 +1,5 @@
+2026-11-03 09:15:10 INFO Application started
+2026-11-03 09:16:22 WARNING Slow response from service
+2026-11-03 09:17:03 ERROR Failed to connect to database
+2026-11-03 09:18:45 INFO Retry completed
+Invalid log line that should be skipped
