@@ -1,0 +1,3 @@
+approach,customers_selected,campaign_cost,expected_responses,expected_revenue,expected_net_value
+Prediction-based,8,295.0,5.81,1627.0,1332.0
+Decision-oriented (greedy heuristic),9,300.0,5.89,1794.2,1494.2
