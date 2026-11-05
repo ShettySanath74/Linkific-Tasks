@@ -1,0 +1,2002 @@
+[
+  {
+    "employee_id": 1,
+    "name": "Mark Stein",
+    "email": "ashley20@example.com",
+    "department": "Finance",
+    "job_title": "Optometrist",
+    "hire_date": "2019-06-01",
+    "salary": 61179.29,
+    "manager_id": null
+  },
+  {
+    "employee_id": 2,
+    "name": "Francis Dodson",
+    "email": "mjenkins@example.com",
+    "department": "Engineering",
+    "job_title": "Legal executive",
+    "hire_date": "2018-02-13",
+    "salary": 134655.64,
+    "manager_id": 1
+  },
+  {
+    "employee_id": 3,
+    "name": "Mark Shaffer",
+    "email": "nsullivan@example.net",
+    "department": "Engineering",
+    "job_title": "Financial manager",
+    "hire_date": "2022-06-08",
+    "salary": 79382.77,
+    "manager_id": null
+  },
+  {
+    "employee_id": 4,
+    "name": "Bradley King",
+    "email": "kevin42@example.net",
+    "department": "Engineering",
+    "job_title": "Commercial/residential surveyor",
+    "hire_date": "2017-06-10",
+    "salary": 45009.26,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 5,
+    "name": "David Randall",
+    "email": "brianlloyd@example.net",
+    "department": "Sales",
+    "job_title": "Hydrologist",
+    "hire_date": "2017-03-29",
+    "salary": 79437.82,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 6,
+    "name": "Matthew Greene",
+    "email": "oknox@example.com",
+    "department": "HR",
+    "job_title": "Surveyor, commercial/residential",
+    "hire_date": "2021-08-06",
+    "salary": 81284.62,
+    "manager_id": 4
+  },
+  {
+    "employee_id": 7,
+    "name": "Jared Mann",
+    "email": "norriswendy@example.net",
+    "department": "Sales",
+    "job_title": "Phytotherapist",
+    "hire_date": "2024-03-16",
+    "salary": 39775.92,
+    "manager_id": 1
+  },
+  {
+    "employee_id": 8,
+    "name": "Terry Williams",
+    "email": "samuelriddle@example.org",
+    "department": "Finance",
+    "job_title": "Colour technologist",
+    "hire_date": "2022-09-16",
+    "salary": 41343.0,
+    "manager_id": 6
+  },
+  {
+    "employee_id": 9,
+    "name": "Matthew Stewart",
+    "email": "hcisneros@example.net",
+    "department": "HR",
+    "job_title": "Audiological scientist",
+    "hire_date": "2021-11-01",
+    "salary": 66607.61,
+    "manager_id": 2
+  },
+  {
+    "employee_id": 10,
+    "name": "Jesse Cook",
+    "email": "berrydaniel@example.com",
+    "department": "Engineering",
+    "job_title": "Furniture designer",
+    "hire_date": "2019-08-20",
+    "salary": 62106.4,
+    "manager_id": 4
+  },
+  {
+    "employee_id": 11,
+    "name": "Priscilla Alvarado",
+    "email": "leewilliam@example.net",
+    "department": "Operations",
+    "job_title": "Administrator, charities/voluntary organisations",
+    "hire_date": "2018-04-21",
+    "salary": 58508.32,
+    "manager_id": 10
+  },
+  {
+    "employee_id": 12,
+    "name": "Melvin Rose",
+    "email": "patriciagolden@example.com",
+    "department": "HR",
+    "job_title": "Haematologist",
+    "hire_date": "2019-07-04",
+    "salary": 63527.77,
+    "manager_id": 6
+  },
+  {
+    "employee_id": 13,
+    "name": "Daniel Gonzalez",
+    "email": "coltonmartinez@example.com",
+    "department": "Operations",
+    "job_title": "Corporate treasurer",
+    "hire_date": "2018-09-13",
+    "salary": 116555.19,
+    "manager_id": null
+  },
+  {
+    "employee_id": 14,
+    "name": "Aaron Lopez",
+    "email": "richard14@example.org",
+    "department": "HR",
+    "job_title": "Medical sales representative",
+    "hire_date": "2018-04-02",
+    "salary": 96682.72,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 15,
+    "name": "Nicholas Smith",
+    "email": "johnsnathaniel@example.com",
+    "department": "Sales",
+    "job_title": "Occupational hygienist",
+    "hire_date": "2021-12-01",
+    "salary": 141460.11,
+    "manager_id": null
+  },
+  {
+    "employee_id": 16,
+    "name": "Andrea Harrison",
+    "email": "haynesallison@example.net",
+    "department": "Finance",
+    "job_title": "Writer",
+    "hire_date": "2024-09-16",
+    "salary": 149520.28,
+    "manager_id": 6
+  },
+  {
+    "employee_id": 17,
+    "name": "Cassidy Carter",
+    "email": "smithtracey@example.org",
+    "department": "Finance",
+    "job_title": "Engineer, maintenance",
+    "hire_date": "2022-08-22",
+    "salary": 43961.82,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 18,
+    "name": "Angela Abbott",
+    "email": "scott29@example.com",
+    "department": "Sales",
+    "job_title": "Surveyor, planning and development",
+    "hire_date": "2023-10-02",
+    "salary": 50679.07,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 19,
+    "name": "Aaron Maxwell",
+    "email": "fdavis@example.com",
+    "department": "Engineering",
+    "job_title": "Event organiser",
+    "hire_date": "2023-08-08",
+    "salary": 124072.84,
+    "manager_id": 11
+  },
+  {
+    "employee_id": 20,
+    "name": "William Rogers",
+    "email": "cindybailey@example.org",
+    "department": "Sales",
+    "job_title": "Mental health nurse",
+    "hire_date": "2020-04-06",
+    "salary": 144304.33,
+    "manager_id": 2
+  },
+  {
+    "employee_id": 21,
+    "name": "Karen Weaver",
+    "email": "kimberly02@example.net",
+    "department": "Finance",
+    "job_title": "Medical physicist",
+    "hire_date": "2017-03-09",
+    "salary": 44105.5,
+    "manager_id": 11
+  },
+  {
+    "employee_id": 22,
+    "name": "Alicia Reynolds",
+    "email": "zwright@example.com",
+    "department": "Engineering",
+    "job_title": "Social worker",
+    "hire_date": "2022-10-18",
+    "salary": 38772.28,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 23,
+    "name": "Mariah Haney",
+    "email": "penajoseph@example.net",
+    "department": "HR",
+    "job_title": "Comptroller",
+    "hire_date": "2021-10-14",
+    "salary": 60877.38,
+    "manager_id": 22
+  },
+  {
+    "employee_id": 24,
+    "name": "Sarah Washington",
+    "email": "melissa58@example.org",
+    "department": "HR",
+    "job_title": "Solicitor",
+    "hire_date": "2024-10-03",
+    "salary": 109637.29,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 25,
+    "name": "Maria Rice",
+    "email": "peter88@example.net",
+    "department": "Finance",
+    "job_title": "Information systems manager",
+    "hire_date": "2018-12-09",
+    "salary": 91575.63,
+    "manager_id": 6
+  },
+  {
+    "employee_id": 26,
+    "name": "Teresa Taylor",
+    "email": "natasha91@example.org",
+    "department": "Engineering",
+    "job_title": "Librarian, academic",
+    "hire_date": "2024-11-08",
+    "salary": 141065.34,
+    "manager_id": 5
+  },
+  {
+    "employee_id": 27,
+    "name": "Richard Stewart",
+    "email": "josephdavis@example.com",
+    "department": "HR",
+    "job_title": "Call centre manager",
+    "hire_date": "2021-07-07",
+    "salary": 134985.78,
+    "manager_id": 4
+  },
+  {
+    "employee_id": 28,
+    "name": "Andrew Kennedy",
+    "email": "valdezdennis@example.net",
+    "department": "Sales",
+    "job_title": "Insurance risk surveyor",
+    "hire_date": "2025-04-08",
+    "salary": 41836.37,
+    "manager_id": 8
+  },
+  {
+    "employee_id": 29,
+    "name": "Taylor Jackson",
+    "email": "xjennings@example.net",
+    "department": "Engineering",
+    "job_title": "Radio broadcast assistant",
+    "hire_date": "2025-05-22",
+    "salary": 66170.23,
+    "manager_id": 5
+  },
+  {
+    "employee_id": 30,
+    "name": "Dakota Wilson",
+    "email": "emorales@example.com",
+    "department": "Engineering",
+    "job_title": "Social researcher",
+    "hire_date": "2019-06-14",
+    "salary": 83822.24,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 31,
+    "name": "Michelle Carey",
+    "email": "jessicabooth@example.org",
+    "department": "HR",
+    "job_title": "Risk manager",
+    "hire_date": "2018-10-16",
+    "salary": 78608.19,
+    "manager_id": null
+  },
+  {
+    "employee_id": 32,
+    "name": "Sarah Davis DDS",
+    "email": "annwatson@example.com",
+    "department": "HR",
+    "job_title": "Dentist",
+    "hire_date": "2021-10-04",
+    "salary": 54843.11,
+    "manager_id": 5
+  },
+  {
+    "employee_id": 33,
+    "name": "James Mitchell",
+    "email": "williamwhite@example.net",
+    "department": "Engineering",
+    "job_title": "Scientist, research (maths)",
+    "hire_date": "2017-01-09",
+    "salary": 30582.5,
+    "manager_id": 25
+  },
+  {
+    "employee_id": 34,
+    "name": "Douglas Butler",
+    "email": "fergusoncarrie@example.net",
+    "department": "HR",
+    "job_title": "Private music teacher",
+    "hire_date": "2017-06-20",
+    "salary": 118257.64,
+    "manager_id": 30
+  },
+  {
+    "employee_id": 35,
+    "name": "Mike Love",
+    "email": "mariepetersen@example.org",
+    "department": "Engineering",
+    "job_title": "Research scientist (maths)",
+    "hire_date": "2024-05-27",
+    "salary": 37993.16,
+    "manager_id": 1
+  },
+  {
+    "employee_id": 36,
+    "name": "Elizabeth Sanchez",
+    "email": "tammy11@example.net",
+    "department": "Operations",
+    "job_title": "Social worker",
+    "hire_date": "2026-06-08",
+    "salary": 38398.57,
+    "manager_id": 22
+  },
+  {
+    "employee_id": 37,
+    "name": "Richard Weaver",
+    "email": "williamhayes@example.net",
+    "department": "Engineering",
+    "job_title": "Agricultural consultant",
+    "hire_date": "2024-06-04",
+    "salary": 51475.26,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 38,
+    "name": "David Howard",
+    "email": "tasha61@example.net",
+    "department": "Engineering",
+    "job_title": "Medical physicist",
+    "hire_date": "2021-09-14",
+    "salary": 147785.45,
+    "manager_id": 14
+  },
+  {
+    "employee_id": 39,
+    "name": "Patrick Sweeney",
+    "email": "jeremyjones@example.com",
+    "department": "Operations",
+    "job_title": "Petroleum engineer",
+    "hire_date": "2017-01-29",
+    "salary": 143886.04,
+    "manager_id": 6
+  },
+  {
+    "employee_id": 40,
+    "name": "Perry Price",
+    "email": "wdavis@example.com",
+    "department": "Operations",
+    "job_title": "Secretary/administrator",
+    "hire_date": "2017-07-26",
+    "salary": 131703.4,
+    "manager_id": 29
+  },
+  {
+    "employee_id": 41,
+    "name": "Jeremy Hernandez",
+    "email": "paulmichele@example.org",
+    "department": "Engineering",
+    "job_title": "Engineer, electrical",
+    "hire_date": "2021-11-17",
+    "salary": 127207.5,
+    "manager_id": 40
+  },
+  {
+    "employee_id": 42,
+    "name": "Aaron Williams",
+    "email": "reneehatfield@example.net",
+    "department": "Sales",
+    "job_title": "Transport planner",
+    "hire_date": "2019-11-30",
+    "salary": 137926.87,
+    "manager_id": 26
+  },
+  {
+    "employee_id": 43,
+    "name": "Lisa Schneider",
+    "email": "lucasboyle@example.org",
+    "department": "HR",
+    "job_title": "Administrator, arts",
+    "hire_date": "2023-04-13",
+    "salary": 30437.56,
+    "manager_id": 30
+  },
+  {
+    "employee_id": 44,
+    "name": "Kelsey Thompson",
+    "email": "jasonlucero@example.com",
+    "department": "Engineering",
+    "job_title": "Computer games developer",
+    "hire_date": "2018-06-03",
+    "salary": 99834.63,
+    "manager_id": 15
+  },
+  {
+    "employee_id": 45,
+    "name": "Yvette Carter",
+    "email": "jacksontamara@example.com",
+    "department": "Finance",
+    "job_title": "Psychologist, prison and probation services",
+    "hire_date": "2019-05-09",
+    "salary": 65151.95,
+    "manager_id": null
+  },
+  {
+    "employee_id": 46,
+    "name": "Barbara Johnson",
+    "email": "williamvaughan@example.com",
+    "department": "HR",
+    "job_title": "Medical sales representative",
+    "hire_date": "2020-04-19",
+    "salary": 75620.89,
+    "manager_id": 23
+  },
+  {
+    "employee_id": 47,
+    "name": "Alexander Smith",
+    "email": "jacqueline74@example.org",
+    "department": "Finance",
+    "job_title": "Agricultural consultant",
+    "hire_date": "2017-03-28",
+    "salary": 147311.83,
+    "manager_id": 24
+  },
+  {
+    "employee_id": 48,
+    "name": "Jordan Parker",
+    "email": "steve41@example.net",
+    "department": "Engineering",
+    "job_title": "Pilot, airline",
+    "hire_date": "2017-05-30",
+    "salary": 121265.86,
+    "manager_id": 35
+  },
+  {
+    "employee_id": 49,
+    "name": "James Smith",
+    "email": "cordovasara@example.net",
+    "department": "Finance",
+    "job_title": "Theatre director",
+    "hire_date": "2018-01-17",
+    "salary": 65510.12,
+    "manager_id": 9
+  },
+  {
+    "employee_id": 50,
+    "name": "Abigail Edwards",
+    "email": "simpsondamon@example.net",
+    "department": "HR",
+    "job_title": "Agricultural engineer",
+    "hire_date": "2017-12-28",
+    "salary": 71989.29,
+    "manager_id": 15
+  },
+  {
+    "employee_id": 51,
+    "name": "Susan Mcknight",
+    "email": "humphreyjerome@example.org",
+    "department": "Sales",
+    "job_title": "Magazine features editor",
+    "hire_date": "2017-01-18",
+    "salary": 93171.29,
+    "manager_id": 26
+  },
+  {
+    "employee_id": 52,
+    "name": "Michelle Mckenzie",
+    "email": "sanchezmakayla@example.net",
+    "department": "Sales",
+    "job_title": "Production assistant, television",
+    "hire_date": "2023-03-03",
+    "salary": 112870.3,
+    "manager_id": null
+  },
+  {
+    "employee_id": 53,
+    "name": "Dr. Robert Shaffer PhD",
+    "email": "kmiller@example.net",
+    "department": "HR",
+    "job_title": "Scientist, research (maths)",
+    "hire_date": "2024-09-15",
+    "salary": 90709.44,
+    "manager_id": 19
+  },
+  {
+    "employee_id": 54,
+    "name": "Rebecca Jacobs",
+    "email": "jamesmitchell@example.org",
+    "department": "Operations",
+    "job_title": "Logistics and distribution manager",
+    "hire_date": "2020-07-11",
+    "salary": 121698.65,
+    "manager_id": 32
+  },
+  {
+    "employee_id": 55,
+    "name": "Molly Larson",
+    "email": "samuel04@example.net",
+    "department": "HR",
+    "job_title": "Commercial/residential surveyor",
+    "hire_date": "2026-09-16",
+    "salary": 72301.93,
+    "manager_id": 43
+  },
+  {
+    "employee_id": 56,
+    "name": "Sarah Mack",
+    "email": "candicemarquez@example.net",
+    "department": "Finance",
+    "job_title": "Senior tax professional/tax inspector",
+    "hire_date": "2022-12-19",
+    "salary": 88135.34,
+    "manager_id": 21
+  },
+  {
+    "employee_id": 57,
+    "name": "Richard Young",
+    "email": "aprilparsons@example.org",
+    "department": "Operations",
+    "job_title": "Clinical biochemist",
+    "hire_date": "2019-11-15",
+    "salary": 46966.84,
+    "manager_id": 47
+  },
+  {
+    "employee_id": 58,
+    "name": "Jimmy Black",
+    "email": "victoriabrown@example.org",
+    "department": "Operations",
+    "job_title": "Higher education careers adviser",
+    "hire_date": "2020-01-14",
+    "salary": 140010.13,
+    "manager_id": 18
+  },
+  {
+    "employee_id": 59,
+    "name": "Gregory Simmons",
+    "email": "blankenshipjamie@example.org",
+    "department": "Engineering",
+    "job_title": "Research scientist (medical)",
+    "hire_date": "2022-06-27",
+    "salary": 93488.49,
+    "manager_id": 14
+  },
+  {
+    "employee_id": 60,
+    "name": "Erika Bryant",
+    "email": "bmaddox@example.org",
+    "department": "Operations",
+    "job_title": "Public librarian",
+    "hire_date": "2024-10-21",
+    "salary": 90919.2,
+    "manager_id": 31
+  },
+  {
+    "employee_id": 61,
+    "name": "Natalie Williams",
+    "email": "aaron87@example.org",
+    "department": "Finance",
+    "job_title": "Equality and diversity officer",
+    "hire_date": "2020-07-19",
+    "salary": 142530.47,
+    "manager_id": 18
+  },
+  {
+    "employee_id": 62,
+    "name": "Veronica Taylor",
+    "email": "galvanpaul@example.org",
+    "department": "Engineering",
+    "job_title": "Stage manager",
+    "hire_date": "2018-11-10",
+    "salary": 98014.97,
+    "manager_id": null
+  },
+  {
+    "employee_id": 63,
+    "name": "Martin Hansen",
+    "email": "suzanne33@example.com",
+    "department": "Finance",
+    "job_title": "Art therapist",
+    "hire_date": "2022-09-05",
+    "salary": 70764.4,
+    "manager_id": 50
+  },
+  {
+    "employee_id": 64,
+    "name": "Kimberly Paul",
+    "email": "heathermorgan@example.com",
+    "department": "HR",
+    "job_title": "Metallurgist",
+    "hire_date": "2021-02-24",
+    "salary": 40203.07,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 65,
+    "name": "Loretta Wells",
+    "email": "david20@example.org",
+    "department": "Finance",
+    "job_title": "Ergonomist",
+    "hire_date": "2018-03-19",
+    "salary": 66507.03,
+    "manager_id": 6
+  },
+  {
+    "employee_id": 66,
+    "name": "Allison Davis",
+    "email": "bradleyperez@example.org",
+    "department": "Operations",
+    "job_title": "Nurse, mental health",
+    "hire_date": "2018-11-10",
+    "salary": 35319.42,
+    "manager_id": 13
+  },
+  {
+    "employee_id": 67,
+    "name": "Robert Johns",
+    "email": "maryflores@example.org",
+    "department": "Finance",
+    "job_title": "Phytotherapist",
+    "hire_date": "2018-09-13",
+    "salary": 128531.13,
+    "manager_id": 54
+  },
+  {
+    "employee_id": 68,
+    "name": "Joshua Hickman",
+    "email": "ashleyvaughn@example.net",
+    "department": "Finance",
+    "job_title": "Restaurant manager, fast food",
+    "hire_date": "2024-05-19",
+    "salary": 84671.16,
+    "manager_id": 67
+  },
+  {
+    "employee_id": 69,
+    "name": "Shawn Khan",
+    "email": "moraadam@example.net",
+    "department": "Sales",
+    "job_title": "Archivist",
+    "hire_date": "2021-01-09",
+    "salary": 130038.02,
+    "manager_id": 26
+  },
+  {
+    "employee_id": 70,
+    "name": "Sharon Mckenzie",
+    "email": "ocooper@example.org",
+    "department": "HR",
+    "job_title": "Games developer",
+    "hire_date": "2022-08-01",
+    "salary": 44124.04,
+    "manager_id": 60
+  },
+  {
+    "employee_id": 71,
+    "name": "Manuel Mitchell",
+    "email": "charles97@example.net",
+    "department": "Engineering",
+    "job_title": "Rural practice surveyor",
+    "hire_date": "2021-12-20",
+    "salary": 132173.09,
+    "manager_id": null
+  },
+  {
+    "employee_id": 72,
+    "name": "Alexis Rios",
+    "email": "hroberson@example.org",
+    "department": "HR",
+    "job_title": "Chemical engineer",
+    "hire_date": "2020-08-13",
+    "salary": 106367.86,
+    "manager_id": 28
+  },
+  {
+    "employee_id": 73,
+    "name": "John Howell",
+    "email": "fclark@example.net",
+    "department": "Finance",
+    "job_title": "Copy",
+    "hire_date": "2024-04-22",
+    "salary": 117303.8,
+    "manager_id": null
+  },
+  {
+    "employee_id": 74,
+    "name": "Mr. Stephen Black",
+    "email": "elliottjohn@example.com",
+    "department": "Finance",
+    "job_title": "IT technical support officer",
+    "hire_date": "2023-07-21",
+    "salary": 90794.43,
+    "manager_id": null
+  },
+  {
+    "employee_id": 75,
+    "name": "Lisa Watson",
+    "email": "billymcpherson@example.org",
+    "department": "Sales",
+    "job_title": "Airline pilot",
+    "hire_date": "2018-01-04",
+    "salary": 41380.19,
+    "manager_id": 24
+  },
+  {
+    "employee_id": 76,
+    "name": "Deanna Reynolds",
+    "email": "gary72@example.org",
+    "department": "Operations",
+    "job_title": "Armed forces operational officer",
+    "hire_date": "2018-09-07",
+    "salary": 98645.37,
+    "manager_id": null
+  },
+  {
+    "employee_id": 77,
+    "name": "Jose Mcdonald",
+    "email": "umurphy@example.org",
+    "department": "Finance",
+    "job_title": "IT consultant",
+    "hire_date": "2020-02-17",
+    "salary": 31289.89,
+    "manager_id": null
+  },
+  {
+    "employee_id": 78,
+    "name": "Janet Garcia",
+    "email": "farleyhannah@example.com",
+    "department": "Finance",
+    "job_title": "Education administrator",
+    "hire_date": "2022-06-13",
+    "salary": 64216.48,
+    "manager_id": null
+  },
+  {
+    "employee_id": 79,
+    "name": "Patricia Hoffman",
+    "email": "loganmcgee@example.net",
+    "department": "Finance",
+    "job_title": "Planning and development surveyor",
+    "hire_date": "2018-01-03",
+    "salary": 91241.07,
+    "manager_id": 65
+  },
+  {
+    "employee_id": 80,
+    "name": "Megan Bell",
+    "email": "theresaturner@example.com",
+    "department": "Operations",
+    "job_title": "Trade mark attorney",
+    "hire_date": "2020-01-17",
+    "salary": 34410.74,
+    "manager_id": null
+  },
+  {
+    "employee_id": 81,
+    "name": "Robin May",
+    "email": "peterbrown@example.net",
+    "department": "Sales",
+    "job_title": "Administrator",
+    "hire_date": "2021-04-23",
+    "salary": 97507.93,
+    "manager_id": 25
+  },
+  {
+    "employee_id": 82,
+    "name": "Sue Page",
+    "email": "ycarlson@example.net",
+    "department": "Operations",
+    "job_title": "Sound technician, broadcasting/film/video",
+    "hire_date": "2017-03-24",
+    "salary": 130440.76,
+    "manager_id": 57
+  },
+  {
+    "employee_id": 83,
+    "name": "Kimberly Lambert MD",
+    "email": "nstewart@example.net",
+    "department": "Sales",
+    "job_title": "Retail merchandiser",
+    "hire_date": "2022-12-29",
+    "salary": 142190.39,
+    "manager_id": 23
+  },
+  {
+    "employee_id": 84,
+    "name": "Tonya Miller",
+    "email": "kramerbrandi@example.org",
+    "department": "Finance",
+    "job_title": "Physiotherapist",
+    "hire_date": "2024-04-22",
+    "salary": 129076.01,
+    "manager_id": 77
+  },
+  {
+    "employee_id": 85,
+    "name": "Eric Duncan",
+    "email": "lauren45@example.net",
+    "department": "Operations",
+    "job_title": "Editor, commissioning",
+    "hire_date": "2023-08-02",
+    "salary": 119952.56,
+    "manager_id": 32
+  },
+  {
+    "employee_id": 86,
+    "name": "Robert Hill",
+    "email": "johnwilson@example.com",
+    "department": "HR",
+    "job_title": "Radiographer, therapeutic",
+    "hire_date": "2024-03-10",
+    "salary": 146183.27,
+    "manager_id": 71
+  },
+  {
+    "employee_id": 87,
+    "name": "Thomas Andrews",
+    "email": "kara43@example.net",
+    "department": "Operations",
+    "job_title": "Lecturer, higher education",
+    "hire_date": "2019-02-15",
+    "salary": 101076.01,
+    "manager_id": 31
+  },
+  {
+    "employee_id": 88,
+    "name": "Jill Davidson",
+    "email": "mooremorgan@example.com",
+    "department": "Operations",
+    "job_title": "Engineer, materials",
+    "hire_date": "2021-11-11",
+    "salary": 117645.87,
+    "manager_id": 58
+  },
+  {
+    "employee_id": 89,
+    "name": "Melissa Morrow",
+    "email": "timothy61@example.org",
+    "department": "Engineering",
+    "job_title": "Animal nutritionist",
+    "hire_date": "2025-02-26",
+    "salary": 90851.79,
+    "manager_id": 33
+  },
+  {
+    "employee_id": 90,
+    "name": "Andrew Jackson",
+    "email": "welchjohn@example.org",
+    "department": "HR",
+    "job_title": "Forensic psychologist",
+    "hire_date": "2021-12-06",
+    "salary": 61542.13,
+    "manager_id": 69
+  },
+  {
+    "employee_id": 91,
+    "name": "Amanda Simon",
+    "email": "debbiemayo@example.org",
+    "department": "Sales",
+    "job_title": "Diagnostic radiographer",
+    "hire_date": "2024-02-21",
+    "salary": 106047.16,
+    "manager_id": null
+  },
+  {
+    "employee_id": 92,
+    "name": "Mark Hall",
+    "email": "brianrubio@example.com",
+    "department": "Engineering",
+    "job_title": "Data processing manager",
+    "hire_date": "2017-02-22",
+    "salary": 111141.08,
+    "manager_id": 8
+  },
+  {
+    "employee_id": 93,
+    "name": "Kristopher Weaver",
+    "email": "walkercalvin@example.net",
+    "department": "Operations",
+    "job_title": "Animal nutritionist",
+    "hire_date": "2025-08-10",
+    "salary": 118855.43,
+    "manager_id": null
+  },
+  {
+    "employee_id": 94,
+    "name": "Sandra Johnson",
+    "email": "fosterraymond@example.org",
+    "department": "Finance",
+    "job_title": "Therapeutic radiographer",
+    "hire_date": "2023-10-16",
+    "salary": 57450.43,
+    "manager_id": 57
+  },
+  {
+    "employee_id": 95,
+    "name": "Amanda Lara",
+    "email": "adam77@example.com",
+    "department": "Sales",
+    "job_title": "Surveyor, building control",
+    "hire_date": "2019-01-24",
+    "salary": 130082.6,
+    "manager_id": 28
+  },
+  {
+    "employee_id": 96,
+    "name": "Bailey Massey",
+    "email": "martinchristopher@example.org",
+    "department": "Sales",
+    "job_title": "Health and safety inspector",
+    "hire_date": "2022-02-27",
+    "salary": 94833.96,
+    "manager_id": null
+  },
+  {
+    "employee_id": 97,
+    "name": "Melinda Sanchez",
+    "email": "benjamin14@example.net",
+    "department": "Sales",
+    "job_title": "Designer, industrial/product",
+    "hire_date": "2024-08-23",
+    "salary": 41202.01,
+    "manager_id": 60
+  },
+  {
+    "employee_id": 98,
+    "name": "Donald Summers",
+    "email": "millerdonna@example.com",
+    "department": "Operations",
+    "job_title": "Exercise physiologist",
+    "hire_date": "2026-10-09",
+    "salary": 65521.55,
+    "manager_id": 25
+  },
+  {
+    "employee_id": 99,
+    "name": "William Nunez",
+    "email": "terri14@example.com",
+    "department": "Finance",
+    "job_title": "Engineer, technical sales",
+    "hire_date": "2018-02-09",
+    "salary": 104620.77,
+    "manager_id": 5
+  },
+  {
+    "employee_id": 100,
+    "name": "Paul Stewart",
+    "email": "nicholas59@example.com",
+    "department": "HR",
+    "job_title": "Designer, jewellery",
+    "hire_date": "2024-07-04",
+    "salary": 52446.06,
+    "manager_id": 29
+  },
+  {
+    "employee_id": 101,
+    "name": "Allison Wallace",
+    "email": "cgilbert@example.com",
+    "department": "HR",
+    "job_title": "Research scientist (physical sciences)",
+    "hire_date": "2023-01-03",
+    "salary": 30054.3,
+    "manager_id": 29
+  },
+  {
+    "employee_id": 102,
+    "name": "Nicole Torres",
+    "email": "garciadenise@example.com",
+    "department": "Sales",
+    "job_title": "Administrator, charities/voluntary organisations",
+    "hire_date": "2022-03-27",
+    "salary": 148412.61,
+    "manager_id": 49
+  },
+  {
+    "employee_id": 103,
+    "name": "Mark Hinton",
+    "email": "patricia87@example.org",
+    "department": "HR",
+    "job_title": "Curator",
+    "hire_date": "2018-05-25",
+    "salary": 103212.1,
+    "manager_id": 77
+  },
+  {
+    "employee_id": 104,
+    "name": "Audrey Burns",
+    "email": "wanda44@example.org",
+    "department": "Operations",
+    "job_title": "Contracting civil engineer",
+    "hire_date": "2019-01-25",
+    "salary": 143961.37,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 105,
+    "name": "Lori Flores",
+    "email": "christyanthony@example.com",
+    "department": "Engineering",
+    "job_title": "Orthoptist",
+    "hire_date": "2020-07-06",
+    "salary": 132691.75,
+    "manager_id": 68
+  },
+  {
+    "employee_id": 106,
+    "name": "Juan Maddox",
+    "email": "megan98@example.com",
+    "department": "Sales",
+    "job_title": "Audiological scientist",
+    "hire_date": "2020-12-13",
+    "salary": 51265.54,
+    "manager_id": 71
+  },
+  {
+    "employee_id": 107,
+    "name": "Brett King",
+    "email": "james09@example.net",
+    "department": "HR",
+    "job_title": "Actor",
+    "hire_date": "2018-03-05",
+    "salary": 45175.72,
+    "manager_id": null
+  },
+  {
+    "employee_id": 108,
+    "name": "Monica Davis",
+    "email": "bmurphy@example.net",
+    "department": "HR",
+    "job_title": "Financial planner",
+    "hire_date": "2020-07-22",
+    "salary": 125156.82,
+    "manager_id": 39
+  },
+  {
+    "employee_id": 109,
+    "name": "Jennifer Miller",
+    "email": "steve81@example.net",
+    "department": "Sales",
+    "job_title": "Scientist, marine",
+    "hire_date": "2024-08-14",
+    "salary": 54385.86,
+    "manager_id": 20
+  },
+  {
+    "employee_id": 110,
+    "name": "Michael Hall",
+    "email": "rgarcia@example.net",
+    "department": "Engineering",
+    "job_title": "Location manager",
+    "hire_date": "2022-01-30",
+    "salary": 144021.38,
+    "manager_id": 97
+  },
+  {
+    "employee_id": 111,
+    "name": "Terry Schmidt",
+    "email": "kristen51@example.org",
+    "department": "HR",
+    "job_title": "Restaurant manager",
+    "hire_date": "2021-08-23",
+    "salary": 146593.48,
+    "manager_id": 96
+  },
+  {
+    "employee_id": 112,
+    "name": "Linda White",
+    "email": "roger46@example.net",
+    "department": "Engineering",
+    "job_title": "Psychologist, educational",
+    "hire_date": "2023-07-12",
+    "salary": 61248.51,
+    "manager_id": 1
+  },
+  {
+    "employee_id": 113,
+    "name": "Shelby Sellers",
+    "email": "drollins@example.net",
+    "department": "HR",
+    "job_title": "Health visitor",
+    "hire_date": "2023-06-29",
+    "salary": 124221.37,
+    "manager_id": 105
+  },
+  {
+    "employee_id": 114,
+    "name": "Raymond Cochran",
+    "email": "nancyrodriguez@example.org",
+    "department": "Sales",
+    "job_title": "Dancer",
+    "hire_date": "2025-10-03",
+    "salary": 123903.28,
+    "manager_id": 5
+  },
+  {
+    "employee_id": 115,
+    "name": "Andre Roman",
+    "email": "mary29@example.org",
+    "department": "Engineering",
+    "job_title": "Arts administrator",
+    "hire_date": "2017-02-09",
+    "salary": 32427.71,
+    "manager_id": null
+  },
+  {
+    "employee_id": 116,
+    "name": "Jeffrey Barrett",
+    "email": "sullivansteven@example.org",
+    "department": "Sales",
+    "job_title": "Podiatrist",
+    "hire_date": "2025-09-25",
+    "salary": 63624.7,
+    "manager_id": 36
+  },
+  {
+    "employee_id": 117,
+    "name": "Catherine Ayala",
+    "email": "april45@example.com",
+    "department": "Engineering",
+    "job_title": "Teacher, English as a foreign language",
+    "hire_date": "2023-03-17",
+    "salary": 127583.92,
+    "manager_id": 55
+  },
+  {
+    "employee_id": 118,
+    "name": "Rhonda Conley",
+    "email": "robertomccormick@example.com",
+    "department": "Engineering",
+    "job_title": "Chief Executive Officer",
+    "hire_date": "2021-10-05",
+    "salary": 32951.11,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 119,
+    "name": "Dr. Kim Howard",
+    "email": "ppetersen@example.net",
+    "department": "HR",
+    "job_title": "Merchandiser, retail",
+    "hire_date": "2018-03-11",
+    "salary": 118371.19,
+    "manager_id": null
+  },
+  {
+    "employee_id": 120,
+    "name": "Timothy Harrington",
+    "email": "robertrodriguez@example.org",
+    "department": "Operations",
+    "job_title": "Geochemist",
+    "hire_date": "2017-09-28",
+    "salary": 100425.13,
+    "manager_id": 1
+  },
+  {
+    "employee_id": 121,
+    "name": "David Torres",
+    "email": "annahaney@example.org",
+    "department": "HR",
+    "job_title": "Scientist, audiological",
+    "hire_date": "2022-09-18",
+    "salary": 116294.5,
+    "manager_id": 14
+  },
+  {
+    "employee_id": 122,
+    "name": "Melissa Robertson",
+    "email": "dsosa@example.org",
+    "department": "HR",
+    "job_title": "Psychologist, forensic",
+    "hire_date": "2023-08-12",
+    "salary": 91926.75,
+    "manager_id": 88
+  },
+  {
+    "employee_id": 123,
+    "name": "Cory Harris",
+    "email": "pvaldez@example.net",
+    "department": "Engineering",
+    "job_title": "Dietitian",
+    "hire_date": "2018-11-17",
+    "salary": 139399.75,
+    "manager_id": null
+  },
+  {
+    "employee_id": 124,
+    "name": "Megan Travis",
+    "email": "johnrichard@example.org",
+    "department": "Engineering",
+    "job_title": "Technical brewer",
+    "hire_date": "2026-10-16",
+    "salary": 135339.98,
+    "manager_id": 32
+  },
+  {
+    "employee_id": 125,
+    "name": "Michael Walker",
+    "email": "debra25@example.net",
+    "department": "HR",
+    "job_title": "Electrical engineer",
+    "hire_date": "2020-07-01",
+    "salary": 74618.11,
+    "manager_id": 67
+  },
+  {
+    "employee_id": 126,
+    "name": "Kevin Johnson",
+    "email": "lward@example.com",
+    "department": "Engineering",
+    "job_title": "Careers adviser",
+    "hire_date": "2024-04-01",
+    "salary": 115882.49,
+    "manager_id": 106
+  },
+  {
+    "employee_id": 127,
+    "name": "Holly Lamb",
+    "email": "scottchristine@example.org",
+    "department": "HR",
+    "job_title": "Holiday representative",
+    "hire_date": "2024-01-28",
+    "salary": 99465.29,
+    "manager_id": null
+  },
+  {
+    "employee_id": 128,
+    "name": "Anthony Walker",
+    "email": "jennifermitchell@example.com",
+    "department": "Sales",
+    "job_title": "Fish farm manager",
+    "hire_date": "2020-01-14",
+    "salary": 35285.28,
+    "manager_id": 111
+  },
+  {
+    "employee_id": 129,
+    "name": "Jason English",
+    "email": "kylechambers@example.org",
+    "department": "Sales",
+    "job_title": "Statistician",
+    "hire_date": "2025-05-20",
+    "salary": 39912.16,
+    "manager_id": null
+  },
+  {
+    "employee_id": 130,
+    "name": "Brandon Callahan",
+    "email": "graylarry@example.org",
+    "department": "Operations",
+    "job_title": "Senior tax professional/tax inspector",
+    "hire_date": "2022-11-22",
+    "salary": 92685.0,
+    "manager_id": 63
+  },
+  {
+    "employee_id": 131,
+    "name": "Luke Bennett",
+    "email": "ericjackson@example.net",
+    "department": "Finance",
+    "job_title": "Environmental consultant",
+    "hire_date": "2025-11-28",
+    "salary": 58619.17,
+    "manager_id": 89
+  },
+  {
+    "employee_id": 132,
+    "name": "Mason Garner",
+    "email": "yboyer@example.org",
+    "department": "Operations",
+    "job_title": "Psychotherapist, dance movement",
+    "hire_date": "2024-10-04",
+    "salary": 129799.86,
+    "manager_id": 117
+  },
+  {
+    "employee_id": 133,
+    "name": "Susan Long",
+    "email": "arnoldjasmine@example.org",
+    "department": "HR",
+    "job_title": "Estate manager/land agent",
+    "hire_date": "2018-07-04",
+    "salary": 82587.63,
+    "manager_id": 77
+  },
+  {
+    "employee_id": 134,
+    "name": "Jasmine Williams",
+    "email": "hallthomas@example.org",
+    "department": "Operations",
+    "job_title": "Industrial buyer",
+    "hire_date": "2020-12-09",
+    "salary": 44095.52,
+    "manager_id": 73
+  },
+  {
+    "employee_id": 135,
+    "name": "Christopher Mitchell",
+    "email": "alexanderjane@example.com",
+    "department": "Finance",
+    "job_title": "Scientist, physiological",
+    "hire_date": "2016-12-31",
+    "salary": 101620.08,
+    "manager_id": 46
+  },
+  {
+    "employee_id": 136,
+    "name": "Kenneth Nelson",
+    "email": "ywood@example.com",
+    "department": "Engineering",
+    "job_title": "Retail merchandiser",
+    "hire_date": "2022-11-23",
+    "salary": 133815.37,
+    "manager_id": null
+  },
+  {
+    "employee_id": 137,
+    "name": "Cathy Thomas",
+    "email": "heatherwang@example.net",
+    "department": "HR",
+    "job_title": "Geophysicist/field seismologist",
+    "hire_date": "2019-09-16",
+    "salary": 51557.6,
+    "manager_id": 129
+  },
+  {
+    "employee_id": 138,
+    "name": "Sarah Ward",
+    "email": "jacobsholly@example.net",
+    "department": "Engineering",
+    "job_title": "Nurse, mental health",
+    "hire_date": "2022-09-22",
+    "salary": 105586.69,
+    "manager_id": 28
+  },
+  {
+    "employee_id": 139,
+    "name": "Angela Jefferson",
+    "email": "russell86@example.com",
+    "department": "Sales",
+    "job_title": "Technical author",
+    "hire_date": "2024-06-19",
+    "salary": 84975.42,
+    "manager_id": 59
+  },
+  {
+    "employee_id": 140,
+    "name": "Brian Mcmillan",
+    "email": "michaeldiaz@example.net",
+    "department": "Engineering",
+    "job_title": "Investment banker, corporate",
+    "hire_date": "2025-09-11",
+    "salary": 82245.53,
+    "manager_id": 85
+  },
+  {
+    "employee_id": 141,
+    "name": "Ryan Middleton",
+    "email": "cheryllopez@example.org",
+    "department": "HR",
+    "job_title": "Science writer",
+    "hire_date": "2020-09-13",
+    "salary": 59459.72,
+    "manager_id": 17
+  },
+  {
+    "employee_id": 142,
+    "name": "Annette Williams",
+    "email": "qmcmahon@example.net",
+    "department": "Finance",
+    "job_title": "Conference centre manager",
+    "hire_date": "2020-12-19",
+    "salary": 54489.15,
+    "manager_id": 128
+  },
+  {
+    "employee_id": 143,
+    "name": "Robert Cole",
+    "email": "victoriaburns@example.com",
+    "department": "Sales",
+    "job_title": "Estate manager/land agent",
+    "hire_date": "2022-01-16",
+    "salary": 129852.34,
+    "manager_id": 117
+  },
+  {
+    "employee_id": 144,
+    "name": "Debbie Glass",
+    "email": "joshuashea@example.com",
+    "department": "Operations",
+    "job_title": "Academic librarian",
+    "hire_date": "2021-04-14",
+    "salary": 145249.82,
+    "manager_id": null
+  },
+  {
+    "employee_id": 145,
+    "name": "Kimberly Cabrera",
+    "email": "kathleen10@example.org",
+    "department": "Engineering",
+    "job_title": "Administrator, education",
+    "hire_date": "2026-02-26",
+    "salary": 120588.7,
+    "manager_id": 131
+  },
+  {
+    "employee_id": 146,
+    "name": "Larry Ruiz",
+    "email": "jonathanjackson@example.com",
+    "department": "Engineering",
+    "job_title": "Production assistant, television",
+    "hire_date": "2023-01-24",
+    "salary": 87951.57,
+    "manager_id": 28
+  },
+  {
+    "employee_id": 147,
+    "name": "Darrell Dixon",
+    "email": "bakerjimmy@example.com",
+    "department": "Operations",
+    "job_title": "Analytical chemist",
+    "hire_date": "2019-12-25",
+    "salary": 85462.21,
+    "manager_id": 5
+  },
+  {
+    "employee_id": 148,
+    "name": "Bradley Perkins",
+    "email": "ihunter@example.com",
+    "department": "Finance",
+    "job_title": "Purchasing manager",
+    "hire_date": "2022-01-17",
+    "salary": 140845.5,
+    "manager_id": 58
+  },
+  {
+    "employee_id": 149,
+    "name": "Mark Knight",
+    "email": "jasonberg@example.org",
+    "department": "Sales",
+    "job_title": "Animator",
+    "hire_date": "2018-10-20",
+    "salary": 92838.7,
+    "manager_id": 53
+  },
+  {
+    "employee_id": 150,
+    "name": "John Arnold",
+    "email": "gmendoza@example.com",
+    "department": "HR",
+    "job_title": "Newspaper journalist",
+    "hire_date": "2026-03-10",
+    "salary": 106951.53,
+    "manager_id": 72
+  },
+  {
+    "employee_id": 151,
+    "name": "Mary Mills",
+    "email": "ubruce@example.com",
+    "department": "HR",
+    "job_title": "Health visitor",
+    "hire_date": "2020-01-12",
+    "salary": 56107.78,
+    "manager_id": 107
+  },
+  {
+    "employee_id": 152,
+    "name": "Rachael Barnes",
+    "email": "grosscheryl@example.com",
+    "department": "Engineering",
+    "job_title": "Doctor, hospital",
+    "hire_date": "2021-01-31",
+    "salary": 60382.26,
+    "manager_id": 3
+  },
+  {
+    "employee_id": 153,
+    "name": "Jonathan Aguirre",
+    "email": "hornbrittany@example.org",
+    "department": "Operations",
+    "job_title": "Trading standards officer",
+    "hire_date": "2017-10-27",
+    "salary": 58427.31,
+    "manager_id": 108
+  },
+  {
+    "employee_id": 154,
+    "name": "Ricky Stewart",
+    "email": "ddelacruz@example.com",
+    "department": "HR",
+    "job_title": "Teacher, English as a foreign language",
+    "hire_date": "2024-08-03",
+    "salary": 119087.14,
+    "manager_id": 23
+  },
+  {
+    "employee_id": 155,
+    "name": "Emily Mitchell",
+    "email": "lisa93@example.net",
+    "department": "Operations",
+    "job_title": "Higher education careers adviser",
+    "hire_date": "2026-03-27",
+    "salary": 77515.32,
+    "manager_id": 33
+  },
+  {
+    "employee_id": 156,
+    "name": "Ronald White",
+    "email": "dgonzales@example.com",
+    "department": "Engineering",
+    "job_title": "Corporate investment banker",
+    "hire_date": "2018-11-15",
+    "salary": 146594.5,
+    "manager_id": 12
+  },
+  {
+    "employee_id": 157,
+    "name": "Marie Brewer",
+    "email": "joneskenneth@example.com",
+    "department": "Finance",
+    "job_title": "Librarian, public",
+    "hire_date": "2017-03-26",
+    "salary": 119782.46,
+    "manager_id": 7
+  },
+  {
+    "employee_id": 158,
+    "name": "Ashley Washington",
+    "email": "johnjarvis@example.org",
+    "department": "Finance",
+    "job_title": "Patent examiner",
+    "hire_date": "2022-01-29",
+    "salary": 40905.12,
+    "manager_id": 125
+  },
+  {
+    "employee_id": 159,
+    "name": "Edward Mullen",
+    "email": "helenarmstrong@example.org",
+    "department": "Finance",
+    "job_title": "Development worker, community",
+    "hire_date": "2024-08-19",
+    "salary": 140440.41,
+    "manager_id": null
+  },
+  {
+    "employee_id": 160,
+    "name": "Joseph Crawford Jr.",
+    "email": "marshchristopher@example.org",
+    "department": "Sales",
+    "job_title": "Therapist, nutritional",
+    "hire_date": "2019-10-01",
+    "salary": 43104.75,
+    "manager_id": 144
+  },
+  {
+    "employee_id": 161,
+    "name": "Michele Woods",
+    "email": "rburns@example.org",
+    "department": "Finance",
+    "job_title": "Commercial/residential surveyor",
+    "hire_date": "2020-06-21",
+    "salary": 130541.6,
+    "manager_id": 19
+  },
+  {
+    "employee_id": 162,
+    "name": "Jason Lowe",
+    "email": "fhunt@example.org",
+    "department": "Sales",
+    "job_title": "Surveyor, hydrographic",
+    "hire_date": "2016-12-07",
+    "salary": 83169.76,
+    "manager_id": 32
+  },
+  {
+    "employee_id": 163,
+    "name": "Brittany Henry",
+    "email": "rrojas@example.com",
+    "department": "Finance",
+    "job_title": "Ergonomist",
+    "hire_date": "2019-11-29",
+    "salary": 98103.22,
+    "manager_id": 129
+  },
+  {
+    "employee_id": 164,
+    "name": "Heather Wilson",
+    "email": "bmorris@example.net",
+    "department": "Operations",
+    "job_title": "Designer, multimedia",
+    "hire_date": "2020-09-14",
+    "salary": 114811.43,
+    "manager_id": 139
+  },
+  {
+    "employee_id": 165,
+    "name": "Jessica Dunlap",
+    "email": "bethjohnson@example.net",
+    "department": "Engineering",
+    "job_title": "Electronics engineer",
+    "hire_date": "2018-12-28",
+    "salary": 140415.51,
+    "manager_id": 129
+  },
+  {
+    "employee_id": 166,
+    "name": "Brittany Smith",
+    "email": "hillkimberly@example.org",
+    "department": "Engineering",
+    "job_title": "Diagnostic radiographer",
+    "hire_date": "2017-12-06",
+    "salary": 70491.89,
+    "manager_id": 108
+  },
+  {
+    "employee_id": 167,
+    "name": "Savannah Hughes",
+    "email": "dylansmith@example.org",
+    "department": "HR",
+    "job_title": "Structural engineer",
+    "hire_date": "2024-03-08",
+    "salary": 36028.83,
+    "manager_id": 78
+  },
+  {
+    "employee_id": 168,
+    "name": "Christy Medina",
+    "email": "jane81@example.org",
+    "department": "Sales",
+    "job_title": "Catering manager",
+    "hire_date": "2024-04-02",
+    "salary": 109364.22,
+    "manager_id": 27
+  },
+  {
+    "employee_id": 169,
+    "name": "Brenda Perkins",
+    "email": "frederick33@example.net",
+    "department": "HR",
+    "job_title": "Database administrator",
+    "hire_date": "2022-12-21",
+    "salary": 38904.55,
+    "manager_id": 117
+  },
+  {
+    "employee_id": 170,
+    "name": "Brittany Coleman",
+    "email": "billy18@example.net",
+    "department": "Operations",
+    "job_title": "Nutritional therapist",
+    "hire_date": "2025-02-06",
+    "salary": 90945.5,
+    "manager_id": null
+  },
+  {
+    "employee_id": 171,
+    "name": "Mackenzie Moody",
+    "email": "jamesgordon@example.org",
+    "department": "Engineering",
+    "job_title": "Geoscientist",
+    "hire_date": "2022-11-17",
+    "salary": 110329.23,
+    "manager_id": 143
+  },
+  {
+    "employee_id": 172,
+    "name": "Paula White",
+    "email": "kenneth31@example.com",
+    "department": "Engineering",
+    "job_title": "Occupational hygienist",
+    "hire_date": "2021-09-25",
+    "salary": 54909.48,
+    "manager_id": null
+  },
+  {
+    "employee_id": 173,
+    "name": "Bonnie Campbell",
+    "email": "vickienewton@example.com",
+    "department": "Sales",
+    "job_title": "Engineer, electrical",
+    "hire_date": "2016-11-11",
+    "salary": 137420.71,
+    "manager_id": null
+  },
+  {
+    "employee_id": 174,
+    "name": "William Garcia",
+    "email": "bennettsteve@example.org",
+    "department": "Operations",
+    "job_title": "Physicist, medical",
+    "hire_date": "2022-05-26",
+    "salary": 79935.35,
+    "manager_id": 133
+  },
+  {
+    "employee_id": 175,
+    "name": "Garrett Santos",
+    "email": "ubrown@example.com",
+    "department": "Finance",
+    "job_title": "Comptroller",
+    "hire_date": "2020-04-18",
+    "salary": 77326.11,
+    "manager_id": null
+  },
+  {
+    "employee_id": 176,
+    "name": "Denise Sanders",
+    "email": "joseph15@example.net",
+    "department": "Operations",
+    "job_title": "Research officer, government",
+    "hire_date": "2023-08-08",
+    "salary": 135830.08,
+    "manager_id": 137
+  },
+  {
+    "employee_id": 177,
+    "name": "Richard Russell",
+    "email": "melissapruitt@example.com",
+    "department": "Operations",
+    "job_title": "Architectural technologist",
+    "hire_date": "2021-03-15",
+    "salary": 36930.32,
+    "manager_id": 24
+  },
+  {
+    "employee_id": 178,
+    "name": "Janice Smith",
+    "email": "smithandrea@example.com",
+    "department": "Sales",
+    "job_title": "Chief Financial Officer",
+    "hire_date": "2019-10-13",
+    "salary": 68614.77,
+    "manager_id": null
+  },
+  {
+    "employee_id": 179,
+    "name": "Brenda Hughes",
+    "email": "daniel97@example.com",
+    "department": "Operations",
+    "job_title": "Pilot, airline",
+    "hire_date": "2022-03-08",
+    "salary": 124194.4,
+    "manager_id": 11
+  },
+  {
+    "employee_id": 180,
+    "name": "Richard Little",
+    "email": "awright@example.net",
+    "department": "Engineering",
+    "job_title": "Minerals surveyor",
+    "hire_date": "2025-03-09",
+    "salary": 146811.93,
+    "manager_id": 28
+  },
+  {
+    "employee_id": 181,
+    "name": "Michael Thompson",
+    "email": "usosa@example.com",
+    "department": "Finance",
+    "job_title": "Administrator, local government",
+    "hire_date": "2022-06-02",
+    "salary": 61051.77,
+    "manager_id": 145
+  },
+  {
+    "employee_id": 182,
+    "name": "Aaron Lester",
+    "email": "graveschristina@example.org",
+    "department": "HR",
+    "job_title": "International aid/development worker",
+    "hire_date": "2020-11-27",
+    "salary": 50203.09,
+    "manager_id": null
+  },
+  {
+    "employee_id": 183,
+    "name": "Kristina Lee",
+    "email": "terryjacob@example.org",
+    "department": "Sales",
+    "job_title": "Accountant, chartered certified",
+    "hire_date": "2019-09-21",
+    "salary": 123181.02,
+    "manager_id": null
+  },
+  {
+    "employee_id": 184,
+    "name": "Melissa Thomas",
+    "email": "ericawolf@example.com",
+    "department": "Engineering",
+    "job_title": "Actuary",
+    "hire_date": "2024-04-25",
+    "salary": 53189.22,
+    "manager_id": null
+  },
+  {
+    "employee_id": 185,
+    "name": "David Zhang",
+    "email": "matthewcooke@example.org",
+    "department": "HR",
+    "job_title": "Archivist",
+    "hire_date": "2023-10-27",
+    "salary": 86125.65,
+    "manager_id": 13
+  },
+  {
+    "employee_id": 186,
+    "name": "Ronnie Nguyen",
+    "email": "gsalas@example.com",
+    "department": "HR",
+    "job_title": "Public affairs consultant",
+    "hire_date": "2018-07-29",
+    "salary": 69543.54,
+    "manager_id": 27
+  },
+  {
+    "employee_id": 187,
+    "name": "Tracey Beck",
+    "email": "jeanette13@example.com",
+    "department": "Engineering",
+    "job_title": "Aeronautical engineer",
+    "hire_date": "2021-08-06",
+    "salary": 144263.51,
+    "manager_id": 113
+  },
+  {
+    "employee_id": 188,
+    "name": "Robert Smith",
+    "email": "rogersjenna@example.com",
+    "department": "Finance",
+    "job_title": "Accountant, chartered",
+    "hire_date": "2022-01-13",
+    "salary": 38214.79,
+    "manager_id": 114
+  },
+  {
+    "employee_id": 189,
+    "name": "Eric Harrington",
+    "email": "reedkimberly@example.org",
+    "department": "Operations",
+    "job_title": "Hospital pharmacist",
+    "hire_date": "2025-04-17",
+    "salary": 45222.58,
+    "manager_id": 163
+  },
+  {
+    "employee_id": 190,
+    "name": "Chelsea Tapia",
+    "email": "ellisbrian@example.com",
+    "department": "Sales",
+    "job_title": "Food technologist",
+    "hire_date": "2020-07-27",
+    "salary": 104551.14,
+    "manager_id": 174
+  },
+  {
+    "employee_id": 191,
+    "name": "Sandra Norman",
+    "email": "portercathy@example.org",
+    "department": "Finance",
+    "job_title": "Press sub",
+    "hire_date": "2024-05-05",
+    "salary": 72116.44,
+    "manager_id": null
+  },
+  {
+    "employee_id": 192,
+    "name": "Daniel Snow",
+    "email": "catherinegilmore@example.org",
+    "department": "Operations",
+    "job_title": "Water quality scientist",
+    "hire_date": "2020-08-22",
+    "salary": 99156.03,
+    "manager_id": null
+  },
+  {
+    "employee_id": 193,
+    "name": "Hannah Ashley",
+    "email": "joan52@example.com",
+    "department": "HR",
+    "job_title": "Corporate investment banker",
+    "hire_date": "2026-10-03",
+    "salary": 115677.42,
+    "manager_id": null
+  },
+  {
+    "employee_id": 194,
+    "name": "Hector Williams",
+    "email": "wilsonrobert@example.net",
+    "department": "Operations",
+    "job_title": "Psychotherapist, dance movement",
+    "hire_date": "2018-09-03",
+    "salary": 61509.97,
+    "manager_id": 165
+  },
+  {
+    "employee_id": 195,
+    "name": "Tammy Walker",
+    "email": "summersdana@example.com",
+    "department": "Operations",
+    "job_title": "Automotive engineer",
+    "hire_date": "2024-10-23",
+    "salary": 58920.13,
+    "manager_id": 154
+  },
+  {
+    "employee_id": 196,
+    "name": "Christopher Erickson",
+    "email": "jacob39@example.com",
+    "department": "Engineering",
+    "job_title": "Building services engineer",
+    "hire_date": "2017-02-27",
+    "salary": 32722.09,
+    "manager_id": null
+  },
+  {
+    "employee_id": 197,
+    "name": "Carrie Willis",
+    "email": "michael39@example.com",
+    "department": "Sales",
+    "job_title": "Print production planner",
+    "hire_date": "2026-10-25",
+    "salary": 101556.72,
+    "manager_id": 139
+  },
+  {
+    "employee_id": 198,
+    "name": "Miguel Holt",
+    "email": "blakebenjamin@example.com",
+    "department": "HR",
+    "job_title": "Ergonomist",
+    "hire_date": "2021-07-03",
+    "salary": 149334.14,
+    "manager_id": 172
+  },
+  {
+    "employee_id": 199,
+    "name": "Corey Coleman",
+    "email": "ericakirby@example.org",
+    "department": "Finance",
+    "job_title": "Dispensing optician",
+    "hire_date": "2025-11-19",
+    "salary": 77172.28,
+    "manager_id": 129
+  },
+  {
+    "employee_id": 200,
+    "name": "Jean Jones",
+    "email": "paul45@example.net",
+    "department": "Sales",
+    "job_title": "Designer, textile",
+    "hire_date": "2019-01-30",
+    "salary": 67872.97,
+    "manager_id": null
+  }
+]
