@@ -1,0 +1,5 @@
+customer_key,customer_name,customer_city,sale_id,sale_amount,match_status,source_system,extraction_timestamp
+C001,Rahul,Bangalore,S001,5000.0,Matched,company.db,2026-11-06T15:37:54.866426+00:00
+C001,Rahul,Bangalore,S003,2000.0,Matched,company.db,2026-11-06T15:37:54.866426+00:00
+C002,Priya,Mangalore,S002,3500.0,Matched,company.db,2026-11-06T15:37:54.866426+00:00
+C003,Arjun,Mysore,,0.0,Customer without sales,company.db,2026-11-06T15:37:54.866426+00:00

@@ -1,0 +1,16 @@
+2026-11-06 22:18:50,462 - INFO - ========== PIPELINE STARTED ==========
+2026-11-06 22:18:50,464 - INFO - Starting data extraction
+2026-11-06 22:18:50,850 - INFO - Extracted 3 customers and 3 sales
+2026-11-06 22:18:50,851 - INFO - Starting data transformation
+2026-11-06 22:18:51,530 - INFO - Transformation completed with 4 records
+2026-11-06 22:18:51,532 - INFO - Starting data loading
+2026-11-06 22:18:51,720 - INFO - Output saved to C:\Users\Comp\Linkific-Tasks-Upload\Day 21\outputs\files\pipeline_integrated_data.csv
+2026-11-06 22:18:51,736 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-11-06 22:33:43,639 - INFO - ========== PIPELINE STARTED ==========
+2026-11-06 22:33:43,641 - INFO - Starting data extraction
+2026-11-06 22:33:43,738 - INFO - Extracted 3 customers and 3 sales
+2026-11-06 22:33:43,739 - INFO - Starting data transformation
+2026-11-06 22:33:43,949 - INFO - Transformation completed with 4 records
+2026-11-06 22:33:43,950 - INFO - Starting data loading
+2026-11-06 22:33:43,981 - INFO - Output saved to C:\Users\Comp\Linkific-Tasks-Upload\Day 21\outputs\files\pipeline_integrated_data.csv
+2026-11-06 22:33:43,982 - INFO - PIPELINE COMPLETED SUCCESSFULLY
