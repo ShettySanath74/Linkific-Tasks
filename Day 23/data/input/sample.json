@@ -1,0 +1,17 @@
+[
+  {
+    "event_id": "E001",
+    "event": "signup",
+    "user_id": 10
+  },
+  {
+    "event_id": "E002",
+    "event": "purchase",
+    "user_id": 11
+  },
+  {
+    "event_id": "E003",
+    "event": "login",
+    "user_id": 10
+  }
+]

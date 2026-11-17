@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-11-17T14:29:02.394635+00:00",
+  "sources": {
+    "apis": {
+      "jsonplaceholder": {
+        "status": "success",
+        "records": 30
+      },
+      "rest_countries": {
+        "status": "success",
+        "records": 250
+      },
+      "github": {
+        "status": "success",
+        "records": 5
+      }
+    },
+    "web_scraping": {
+      "status": "success",
+      "records": 60
+    },
+    "file_processing": {
+      "status": "success",
+      "records": {
+        "csv": 3,
+        "excel": 3,
+        "json": 3
+      }
+    },
+    "database_extraction": {
+      "status": "success",
+      "records": 0
+    }
+  },
+  "finished_at": "2026-11-17T14:29:16.404152+00:00",
+  "overall_status": "success"
+}

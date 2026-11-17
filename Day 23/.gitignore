@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+logs/*.log
+state/extraction_state.json
+data/source_database/*.db
