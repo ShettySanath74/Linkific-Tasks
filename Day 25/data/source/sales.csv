@@ -1,0 +1,5 @@
+order_id,customer_id,product_id,order_date,quantity,unit_price,updated_at,is_deleted
+S1001,C001,P001,2026-11-18,1,55000,2026-11-18T11:00:00,false
+S1002,C002,P002,2026-11-18,2,4500,2026-11-18T11:05:00,false
+S1003,C001,P003,2026-11-19,3,1200,2026-11-19T08:00:00,false
+S1004,C003,P001,2026-11-19,1,55000,2026-11-19T08:30:00,false
