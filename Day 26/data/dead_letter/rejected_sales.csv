@@ -1,0 +1,3 @@
+sale_id,customer_id,product,amount,sale_date,reason
+S005,C999,USB Cable,400,2026-11-19,Customer reference not found
+S006,C004,Headphones,-800,2026-11-19,Amount must be greater than zero

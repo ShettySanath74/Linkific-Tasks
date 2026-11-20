@@ -1,0 +1,4 @@
+# ETL scripts use only Python's standard library.
+# Install Apache Airflow separately using the official constraints file
+# matching the chosen Airflow version and Python version:
+# https://airflow.apache.org/docs/apache-airflow/stable/installation/
