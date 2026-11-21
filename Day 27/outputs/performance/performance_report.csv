@@ -1,0 +1,4 @@
+input_records,accepted_records,rejected_records,elapsed_seconds,records_per_second,indexed_query_ms,unindexed_query_ms,query_plan_with_index
+1000,900,100,0.3034,3295.68,1.4422,1.7279,3 0 51 SEARCH sales USING INDEX idx_sales_customer_date (customer_id=? AND sale_date>?)
+10000,9000,1000,0.5571,17951.02,1.4594,7.3277,3 0 51 SEARCH sales USING INDEX idx_sales_customer_date (customer_id=? AND sale_date>?)
+100000,90000,10000,4.1132,24311.68,0.8201,34.0623,3 0 51 SEARCH sales USING INDEX idx_sales_customer_date (customer_id=? AND sale_date>?)

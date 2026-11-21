@@ -1,0 +1,1 @@
+# Core pipeline, synthetic data generation, tests and benchmarks use Python standard library only.\n# Apache Airflow is optional and installed separately using its official constraints.\n

@@ -1,0 +1,59 @@
+{
+  "true_positive_invalid_rejected": 6,
+  "true_negative_valid_accepted": 2,
+  "false_positive_valid_rejected": 0,
+  "false_negative_invalid_accepted": 0,
+  "cases": 8,
+  "accuracy": 1.0,
+  "details": [
+    {
+      "sale_id": "A1",
+      "expected_invalid": false,
+      "actual_invalid": false,
+      "reason": ""
+    },
+    {
+      "sale_id": "A2",
+      "expected_invalid": true,
+      "actual_invalid": true,
+      "reason": "Amount must be greater than zero"
+    },
+    {
+      "sale_id": "A3",
+      "expected_invalid": true,
+      "actual_invalid": true,
+      "reason": "Amount must be greater than zero"
+    },
+    {
+      "sale_id": "A4",
+      "expected_invalid": true,
+      "actual_invalid": true,
+      "reason": "Customer reference not found"
+    },
+    {
+      "sale_id": "A5",
+      "expected_invalid": true,
+      "actual_invalid": true,
+      "reason": "Amount is not numeric"
+    },
+    {
+      "sale_id": "A6",
+      "expected_invalid": true,
+      "actual_invalid": true,
+      "reason": "sale_date must use YYYY-MM-DD format"
+    },
+    {
+      "sale_id": "",
+      "expected_invalid": true,
+      "actual_invalid": true,
+      "reason": "Missing sale_id"
+    },
+    {
+      "sale_id": "A8",
+      "expected_invalid": false,
+      "actual_invalid": false,
+      "reason": ""
+    }
+  ],
+  "note": "Synthetic labelled validation cases; this measures rule behavior on these fixtures, not production-wide accuracy."
+}

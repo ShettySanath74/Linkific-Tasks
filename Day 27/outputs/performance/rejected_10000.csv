@@ -1,0 +1,1001 @@
+sale_id,customer_id,product,amount,sale_date,reason
+T00000001,C00071,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00000002,C00015,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00000003,C99999,Laptop,23550.66,2026-11-21,Customer reference not found
+T00000004,C00021,Monitor,359.3,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00093,Keyboard,77753.86,2026-11-21,Missing sale_id
+T00000051,C00009,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00000052,C00031,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00000053,C99999,Mouse,46355.63,2026-11-21,Customer reference not found
+T00000054,C00006,Laptop,33596.07,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00075,Keyboard,74783.03,2026-11-21,Missing sale_id
+T00000101,C00074,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000102,C00091,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00000103,C99999,Mouse,29201.3,2026-11-21,Customer reference not found
+T00000104,C00009,Keyboard,49890.12,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00085,Laptop,57608.37,2026-11-21,Missing sale_id
+T00000151,C00024,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00000152,C00042,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00000153,C99999,Monitor,22332.7,2026-11-21,Customer reference not found
+T00000154,C00054,Keyboard,66809.38,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00061,Laptop,59947.04,2026-11-21,Missing sale_id
+T00000201,C00076,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00000202,C00025,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00000203,C99999,Keyboard,1230.45,2026-11-21,Customer reference not found
+T00000204,C00069,Mouse,22017.48,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00007,Keyboard,55823.65,2026-11-21,Missing sale_id
+T00000251,C00064,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00000252,C00027,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00000253,C99999,Monitor,70479.64,2026-11-21,Customer reference not found
+T00000254,C00063,Laptop,2406.67,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00081,Mouse,56811.65,2026-11-21,Missing sale_id
+T00000301,C00045,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00000302,C00055,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00000303,C99999,Mouse,79949.95,2026-11-21,Customer reference not found
+T00000304,C00062,Laptop,19052.74,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00074,Keyboard,46027.47,2026-11-21,Missing sale_id
+T00000351,C00073,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000352,C00098,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00000353,C99999,Keyboard,61972.05,2026-11-21,Customer reference not found
+T00000354,C00077,Laptop,22254.26,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00019,Mouse,43263.22,2026-11-21,Missing sale_id
+T00000401,C00073,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00000402,C00020,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00000403,C99999,Laptop,21841.02,2026-11-21,Customer reference not found
+T00000404,C00085,Monitor,38904.37,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00057,Monitor,21926.03,2026-11-21,Missing sale_id
+T00000451,C00079,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000452,C00037,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00000453,C99999,Laptop,63159.23,2026-11-21,Customer reference not found
+T00000454,C00083,Keyboard,5366.36,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00013,Monitor,22803.34,2026-11-21,Missing sale_id
+T00000501,C00038,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00000502,C00046,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00000503,C99999,Laptop,41926.42,2026-11-21,Customer reference not found
+T00000504,C00047,Laptop,76276.95,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00070,Laptop,31297.25,2026-11-21,Missing sale_id
+T00000551,C00063,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000552,C00010,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00000553,C99999,Monitor,79781.27,2026-11-21,Customer reference not found
+T00000554,C00088,Keyboard,53460.4,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00091,Laptop,44044.77,2026-11-21,Missing sale_id
+T00000601,C00060,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00000602,C00064,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00000603,C99999,Monitor,77338.26,2026-11-21,Customer reference not found
+T00000604,C00028,Keyboard,3987.78,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00037,Monitor,47841.75,2026-11-21,Missing sale_id
+T00000651,C00028,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000652,C00035,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00000653,C99999,Mouse,19472.4,2026-11-21,Customer reference not found
+T00000654,C00086,Mouse,51071.77,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00007,Laptop,33122.78,2026-11-21,Missing sale_id
+T00000701,C00059,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000702,C00059,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00000703,C99999,Keyboard,57890.08,2026-11-21,Customer reference not found
+T00000704,C00051,Keyboard,65334.61,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00096,Mouse,46307.07,2026-11-21,Missing sale_id
+T00000751,C00095,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00000752,C00097,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00000753,C99999,Mouse,31790.9,2026-11-21,Customer reference not found
+T00000754,C00031,Keyboard,62063.56,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00049,Monitor,42738.65,2026-11-21,Missing sale_id
+T00000801,C00070,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00000802,C00095,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00000803,C99999,Laptop,40113.35,2026-11-21,Customer reference not found
+T00000804,C00045,Laptop,7905.09,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00030,Laptop,27313.36,2026-11-21,Missing sale_id
+T00000851,C00089,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00000852,C00047,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00000853,C99999,Keyboard,13390.45,2026-11-21,Customer reference not found
+T00000854,C00079,Laptop,45101.3,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00083,Monitor,77348.21,2026-11-21,Missing sale_id
+T00000901,C00029,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00000902,C00029,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00000903,C99999,Monitor,44023.12,2026-11-21,Customer reference not found
+T00000904,C00015,Laptop,21504.32,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00070,Keyboard,43409.27,2026-11-21,Missing sale_id
+T00000951,C00055,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00000952,C00030,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00000953,C99999,Laptop,25136.78,2026-11-21,Customer reference not found
+T00000954,C00039,Mouse,30679.41,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00097,Mouse,51361.93,2026-11-21,Missing sale_id
+T00001001,C00066,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001002,C00002,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001003,C99999,Monitor,73626.1,2026-11-21,Customer reference not found
+T00001004,C00023,Laptop,44273.9,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00092,Monitor,18038.77,2026-11-21,Missing sale_id
+T00001051,C00083,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001052,C00034,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00001053,C99999,Mouse,72209.44,2026-11-21,Customer reference not found
+T00001054,C00057,Mouse,7449.09,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00043,Laptop,3511.44,2026-11-21,Missing sale_id
+T00001101,C00099,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001102,C00041,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001103,C99999,Monitor,11337.41,2026-11-21,Customer reference not found
+T00001104,C00096,Laptop,19115.87,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00041,Mouse,50931.32,2026-11-21,Missing sale_id
+T00001151,C00034,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00001152,C00009,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00001153,C99999,Keyboard,68544.27,2026-11-21,Customer reference not found
+T00001154,C00067,Monitor,73381.24,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00002,Monitor,9090.26,2026-11-21,Missing sale_id
+T00001201,C00034,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00001202,C00067,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001203,C99999,Monitor,52876.37,2026-11-21,Customer reference not found
+T00001204,C00088,Mouse,57730.53,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00084,Monitor,79797.78,2026-11-21,Missing sale_id
+T00001251,C00007,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001252,C00003,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00001253,C99999,Monitor,30482.28,2026-11-21,Customer reference not found
+T00001254,C00071,Keyboard,38004.27,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00020,Mouse,55645.84,2026-11-21,Missing sale_id
+T00001301,C00036,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001302,C00071,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00001303,C99999,Laptop,36781.66,2026-11-21,Customer reference not found
+T00001304,C00074,Monitor,7132.79,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00064,Monitor,25353.32,2026-11-21,Missing sale_id
+T00001351,C00008,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00001352,C00070,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00001353,C99999,Laptop,49327.1,2026-11-21,Customer reference not found
+T00001354,C00087,Mouse,59418.78,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00072,Monitor,19083.88,2026-11-21,Missing sale_id
+T00001401,C00069,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001402,C00080,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00001403,C99999,Laptop,56100.47,2026-11-21,Customer reference not found
+T00001404,C00010,Keyboard,74251.02,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00014,Keyboard,62972.66,2026-11-21,Missing sale_id
+T00001451,C00098,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00001452,C00034,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00001453,C99999,Mouse,41479.03,2026-11-21,Customer reference not found
+T00001454,C00047,Monitor,37626.97,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00059,Laptop,3288.39,2026-11-21,Missing sale_id
+T00001501,C00016,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001502,C00027,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00001503,C99999,Mouse,34143.12,2026-11-21,Customer reference not found
+T00001504,C00075,Keyboard,20978.1,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00069,Monitor,45217.15,2026-11-21,Missing sale_id
+T00001551,C00028,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00001552,C00096,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001553,C99999,Mouse,58860.78,2026-11-21,Customer reference not found
+T00001554,C00034,Mouse,18413.68,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00032,Keyboard,12564.05,2026-11-21,Missing sale_id
+T00001601,C00030,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00001602,C00038,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00001603,C99999,Keyboard,71026.58,2026-11-21,Customer reference not found
+T00001604,C00100,Keyboard,59856.85,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00067,Monitor,33177.73,2026-11-21,Missing sale_id
+T00001651,C00033,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00001652,C00016,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001653,C99999,Mouse,59035.76,2026-11-21,Customer reference not found
+T00001654,C00005,Mouse,36920.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00099,Laptop,41739.02,2026-11-21,Missing sale_id
+T00001701,C00008,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00001702,C00094,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00001703,C99999,Mouse,76850.88,2026-11-21,Customer reference not found
+T00001704,C00013,Laptop,58041.24,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00069,Monitor,15237.89,2026-11-21,Missing sale_id
+T00001751,C00084,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00001752,C00095,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001753,C99999,Monitor,25940.59,2026-11-21,Customer reference not found
+T00001754,C00074,Laptop,9091.14,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00053,Monitor,29284.88,2026-11-21,Missing sale_id
+T00001801,C00053,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00001802,C00096,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00001803,C99999,Laptop,10610.52,2026-11-21,Customer reference not found
+T00001804,C00004,Keyboard,48487.8,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00079,Mouse,47749.22,2026-11-21,Missing sale_id
+T00001851,C00001,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00001852,C00036,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001853,C99999,Laptop,52296.82,2026-11-21,Customer reference not found
+T00001854,C00005,Mouse,68320.96,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00086,Keyboard,26555.78,2026-11-21,Missing sale_id
+T00001901,C00023,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00001902,C00005,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00001903,C99999,Laptop,63942.12,2026-11-21,Customer reference not found
+T00001904,C00065,Mouse,15297.91,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00062,Keyboard,62065.1,2026-11-21,Missing sale_id
+T00001951,C00010,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00001952,C00077,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00001953,C99999,Monitor,14176.3,2026-11-21,Customer reference not found
+T00001954,C00052,Laptop,47900.91,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00088,Monitor,26259.92,2026-11-21,Missing sale_id
+T00002001,C00061,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00002002,C00085,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00002003,C99999,Laptop,23016.57,2026-11-21,Customer reference not found
+T00002004,C00011,Mouse,40497.13,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00036,Keyboard,10689.85,2026-11-21,Missing sale_id
+T00002051,C00070,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00002052,C00083,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00002053,C99999,Keyboard,8352.64,2026-11-21,Customer reference not found
+T00002054,C00010,Laptop,45750.43,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00033,Monitor,1599.31,2026-11-21,Missing sale_id
+T00002101,C00001,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00002102,C00091,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00002103,C99999,Monitor,55419.43,2026-11-21,Customer reference not found
+T00002104,C00027,Mouse,51222.07,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00067,Monitor,33021.3,2026-11-21,Missing sale_id
+T00002151,C00031,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00002152,C00002,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002153,C99999,Keyboard,23733.66,2026-11-21,Customer reference not found
+T00002154,C00083,Laptop,1372.82,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00086,Keyboard,13028.05,2026-11-21,Missing sale_id
+T00002201,C00048,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00002202,C00091,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00002203,C99999,Mouse,29895.9,2026-11-21,Customer reference not found
+T00002204,C00070,Mouse,42738.07,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00016,Laptop,32424.53,2026-11-21,Missing sale_id
+T00002251,C00060,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00002252,C00007,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00002253,C99999,Keyboard,3992.32,2026-11-21,Customer reference not found
+T00002254,C00038,Laptop,41157.93,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00099,Mouse,61198.68,2026-11-21,Missing sale_id
+T00002301,C00077,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00002302,C00057,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00002303,C99999,Monitor,15183.92,2026-11-21,Customer reference not found
+T00002304,C00009,Monitor,75132.65,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00048,Mouse,1121.59,2026-11-21,Missing sale_id
+T00002351,C00005,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00002352,C00055,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002353,C99999,Monitor,47080.34,2026-11-21,Customer reference not found
+T00002354,C00041,Monitor,45671.25,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00042,Laptop,64685.29,2026-11-21,Missing sale_id
+T00002401,C00033,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00002402,C00048,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00002403,C99999,Monitor,54650.8,2026-11-21,Customer reference not found
+T00002404,C00036,Mouse,29103.54,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00092,Keyboard,65727.09,2026-11-21,Missing sale_id
+T00002451,C00032,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00002452,C00083,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002453,C99999,Mouse,69728.33,2026-11-21,Customer reference not found
+T00002454,C00089,Monitor,54979.51,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00092,Monitor,56705.41,2026-11-21,Missing sale_id
+T00002501,C00084,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00002502,C00063,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002503,C99999,Mouse,28787.64,2026-11-21,Customer reference not found
+T00002504,C00013,Keyboard,41060.99,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00063,Monitor,70844.5,2026-11-21,Missing sale_id
+T00002551,C00052,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00002552,C00093,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002553,C99999,Laptop,33818.16,2026-11-21,Customer reference not found
+T00002554,C00041,Laptop,21501.12,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00083,Monitor,71142.33,2026-11-21,Missing sale_id
+T00002601,C00041,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00002602,C00022,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002603,C99999,Laptop,52848.08,2026-11-21,Customer reference not found
+T00002604,C00083,Mouse,72210.64,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00008,Keyboard,33602.49,2026-11-21,Missing sale_id
+T00002651,C00006,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00002652,C00040,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002653,C99999,Monitor,66773.35,2026-11-21,Customer reference not found
+T00002654,C00078,Mouse,60979.9,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00065,Monitor,60958.13,2026-11-21,Missing sale_id
+T00002701,C00088,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00002702,C00081,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00002703,C99999,Keyboard,3734.23,2026-11-21,Customer reference not found
+T00002704,C00095,Laptop,24121.0,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00051,Laptop,66456.8,2026-11-21,Missing sale_id
+T00002751,C00004,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00002752,C00032,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00002753,C99999,Laptop,65748.54,2026-11-21,Customer reference not found
+T00002754,C00067,Mouse,75489.45,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00100,Monitor,61151.48,2026-11-21,Missing sale_id
+T00002801,C00013,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00002802,C00018,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002803,C99999,Keyboard,74895.52,2026-11-21,Customer reference not found
+T00002804,C00040,Monitor,19287.98,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00048,Mouse,75298.82,2026-11-21,Missing sale_id
+T00002851,C00041,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00002852,C00090,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00002853,C99999,Laptop,30038.54,2026-11-21,Customer reference not found
+T00002854,C00074,Mouse,24515.2,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00095,Laptop,40034.04,2026-11-21,Missing sale_id
+T00002901,C00051,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00002902,C00015,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00002903,C99999,Monitor,38832.26,2026-11-21,Customer reference not found
+T00002904,C00009,Laptop,43919.44,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00032,Monitor,11306.44,2026-11-21,Missing sale_id
+T00002951,C00054,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00002952,C00030,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00002953,C99999,Laptop,72539.9,2026-11-21,Customer reference not found
+T00002954,C00086,Mouse,64136.0,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00090,Mouse,48684.25,2026-11-21,Missing sale_id
+T00003001,C00094,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00003002,C00074,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00003003,C99999,Mouse,74408.35,2026-11-21,Customer reference not found
+T00003004,C00051,Keyboard,612.98,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00022,Monitor,226.13,2026-11-21,Missing sale_id
+T00003051,C00042,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00003052,C00029,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00003053,C99999,Laptop,53271.56,2026-11-21,Customer reference not found
+T00003054,C00069,Monitor,7326.3,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00089,Keyboard,69768.05,2026-11-21,Missing sale_id
+T00003101,C00039,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00003102,C00049,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003103,C99999,Monitor,22089.76,2026-11-21,Customer reference not found
+T00003104,C00084,Monitor,29449.11,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00016,Laptop,6702.7,2026-11-21,Missing sale_id
+T00003151,C00094,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003152,C00063,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003153,C99999,Keyboard,44168.22,2026-11-21,Customer reference not found
+T00003154,C00078,Laptop,71735.96,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00022,Keyboard,75726.17,2026-11-21,Missing sale_id
+T00003201,C00046,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00003202,C00091,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00003203,C99999,Laptop,10781.06,2026-11-21,Customer reference not found
+T00003204,C00054,Keyboard,72089.73,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00021,Mouse,75875.23,2026-11-21,Missing sale_id
+T00003251,C00098,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003252,C00058,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003253,C99999,Monitor,33578.43,2026-11-21,Customer reference not found
+T00003254,C00065,Laptop,13438.12,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00036,Mouse,23243.54,2026-11-21,Missing sale_id
+T00003301,C00062,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00003302,C00040,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00003303,C99999,Laptop,43527.76,2026-11-21,Customer reference not found
+T00003304,C00035,Laptop,1794.51,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00006,Laptop,43616.9,2026-11-21,Missing sale_id
+T00003351,C00093,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003352,C00083,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003353,C99999,Laptop,70504.46,2026-11-21,Customer reference not found
+T00003354,C00005,Mouse,40313.3,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00002,Monitor,66631.14,2026-11-21,Missing sale_id
+T00003401,C00033,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00003402,C00018,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003403,C99999,Laptop,29141.42,2026-11-21,Customer reference not found
+T00003404,C00037,Monitor,32781.76,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00080,Mouse,35322.13,2026-11-21,Missing sale_id
+T00003451,C00025,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00003452,C00047,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003453,C99999,Laptop,55975.44,2026-11-21,Customer reference not found
+T00003454,C00084,Monitor,33182.89,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00046,Keyboard,66272.05,2026-11-21,Missing sale_id
+T00003501,C00012,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00003502,C00047,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00003503,C99999,Laptop,33158.24,2026-11-21,Customer reference not found
+T00003504,C00063,Laptop,16902.65,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00054,Monitor,71188.11,2026-11-21,Missing sale_id
+T00003551,C00037,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00003552,C00052,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003553,C99999,Laptop,27057.45,2026-11-21,Customer reference not found
+T00003554,C00003,Laptop,37644.48,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00054,Keyboard,22046.42,2026-11-21,Missing sale_id
+T00003601,C00052,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00003602,C00068,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00003603,C99999,Laptop,51742.95,2026-11-21,Customer reference not found
+T00003604,C00015,Mouse,9303.51,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00005,Keyboard,19177.49,2026-11-21,Missing sale_id
+T00003651,C00002,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00003652,C00037,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003653,C99999,Laptop,34482.79,2026-11-21,Customer reference not found
+T00003654,C00085,Laptop,4087.17,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00018,Keyboard,70309.9,2026-11-21,Missing sale_id
+T00003701,C00082,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00003702,C00096,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00003703,C99999,Mouse,38145.06,2026-11-21,Customer reference not found
+T00003704,C00038,Keyboard,53436.09,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00076,Monitor,29450.42,2026-11-21,Missing sale_id
+T00003751,C00070,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003752,C00038,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00003753,C99999,Laptop,69808.16,2026-11-21,Customer reference not found
+T00003754,C00021,Keyboard,6074.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00074,Mouse,68270.3,2026-11-21,Missing sale_id
+T00003801,C00050,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003802,C00011,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003803,C99999,Monitor,39679.06,2026-11-21,Customer reference not found
+T00003804,C00049,Monitor,35577.18,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00029,Mouse,30408.23,2026-11-21,Missing sale_id
+T00003851,C00028,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003852,C00100,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00003853,C99999,Laptop,52599.04,2026-11-21,Customer reference not found
+T00003854,C00020,Monitor,61032.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00084,Laptop,76418.83,2026-11-21,Missing sale_id
+T00003901,C00022,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003902,C00034,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00003903,C99999,Keyboard,11366.15,2026-11-21,Customer reference not found
+T00003904,C00027,Mouse,2285.27,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00006,Mouse,632.54,2026-11-21,Missing sale_id
+T00003951,C00006,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00003952,C00029,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00003953,C99999,Laptop,75835.44,2026-11-21,Customer reference not found
+T00003954,C00079,Keyboard,10424.31,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00070,Laptop,76027.26,2026-11-21,Missing sale_id
+T00004001,C00095,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00004002,C00055,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00004003,C99999,Laptop,13051.24,2026-11-21,Customer reference not found
+T00004004,C00096,Laptop,13379.14,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00057,Laptop,3221.05,2026-11-21,Missing sale_id
+T00004051,C00045,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004052,C00072,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00004053,C99999,Laptop,15747.3,2026-11-21,Customer reference not found
+T00004054,C00047,Mouse,548.6,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00040,Keyboard,7619.27,2026-11-21,Missing sale_id
+T00004101,C00099,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004102,C00060,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00004103,C99999,Mouse,38069.26,2026-11-21,Customer reference not found
+T00004104,C00060,Keyboard,29845.39,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00049,Laptop,25857.53,2026-11-21,Missing sale_id
+T00004151,C00088,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00004152,C00011,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00004153,C99999,Monitor,64303.67,2026-11-21,Customer reference not found
+T00004154,C00002,Mouse,25590.16,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00074,Monitor,54935.26,2026-11-21,Missing sale_id
+T00004201,C00082,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00004202,C00061,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00004203,C99999,Keyboard,65828.03,2026-11-21,Customer reference not found
+T00004204,C00020,Monitor,68363.04,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00064,Mouse,42626.01,2026-11-21,Missing sale_id
+T00004251,C00061,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004252,C00054,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00004253,C99999,Laptop,57292.01,2026-11-21,Customer reference not found
+T00004254,C00078,Laptop,35137.84,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00093,Laptop,23507.75,2026-11-21,Missing sale_id
+T00004301,C00009,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004302,C00008,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00004303,C99999,Monitor,37195.28,2026-11-21,Customer reference not found
+T00004304,C00069,Laptop,25576.78,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00082,Laptop,15794.42,2026-11-21,Missing sale_id
+T00004351,C00091,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004352,C00078,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00004353,C99999,Keyboard,22156.09,2026-11-21,Customer reference not found
+T00004354,C00048,Monitor,73896.13,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00015,Monitor,10829.35,2026-11-21,Missing sale_id
+T00004401,C00049,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00004402,C00096,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00004403,C99999,Monitor,31994.34,2026-11-21,Customer reference not found
+T00004404,C00027,Monitor,47258.35,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00016,Laptop,77542.58,2026-11-21,Missing sale_id
+T00004451,C00085,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004452,C00005,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00004453,C99999,Mouse,1244.31,2026-11-21,Customer reference not found
+T00004454,C00082,Laptop,66846.79,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00031,Mouse,31801.41,2026-11-21,Missing sale_id
+T00004501,C00077,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004502,C00057,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00004503,C99999,Monitor,12378.76,2026-11-21,Customer reference not found
+T00004504,C00097,Keyboard,70031.31,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00006,Monitor,67054.4,2026-11-21,Missing sale_id
+T00004551,C00025,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00004552,C00090,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00004553,C99999,Mouse,31897.9,2026-11-21,Customer reference not found
+T00004554,C00090,Laptop,15969.71,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00012,Monitor,68191.48,2026-11-21,Missing sale_id
+T00004601,C00049,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004602,C00044,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00004603,C99999,Mouse,56610.31,2026-11-21,Customer reference not found
+T00004604,C00033,Monitor,7349.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00034,Monitor,16128.52,2026-11-21,Missing sale_id
+T00004651,C00027,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004652,C00082,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00004653,C99999,Mouse,72035.62,2026-11-21,Customer reference not found
+T00004654,C00015,Keyboard,478.63,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00031,Keyboard,78753.72,2026-11-21,Missing sale_id
+T00004701,C00061,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004702,C00079,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00004703,C99999,Mouse,54662.21,2026-11-21,Customer reference not found
+T00004704,C00079,Keyboard,27677.19,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00082,Monitor,38382.41,2026-11-21,Missing sale_id
+T00004751,C00049,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00004752,C00022,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00004753,C99999,Monitor,46832.81,2026-11-21,Customer reference not found
+T00004754,C00024,Monitor,71529.64,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00063,Keyboard,70859.75,2026-11-21,Missing sale_id
+T00004801,C00070,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004802,C00090,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00004803,C99999,Mouse,13077.64,2026-11-21,Customer reference not found
+T00004804,C00082,Keyboard,48164.16,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00065,Keyboard,17538.83,2026-11-21,Missing sale_id
+T00004851,C00043,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004852,C00042,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00004853,C99999,Mouse,65084.42,2026-11-21,Customer reference not found
+T00004854,C00032,Monitor,45107.51,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00003,Keyboard,40925.74,2026-11-21,Missing sale_id
+T00004901,C00006,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004902,C00020,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00004903,C99999,Monitor,60501.45,2026-11-21,Customer reference not found
+T00004904,C00086,Monitor,1638.53,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00098,Keyboard,39428.96,2026-11-21,Missing sale_id
+T00004951,C00053,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00004952,C00074,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00004953,C99999,Keyboard,56821.15,2026-11-21,Customer reference not found
+T00004954,C00093,Monitor,16295.62,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00035,Laptop,53732.28,2026-11-21,Missing sale_id
+T00005001,C00050,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00005002,C00076,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00005003,C99999,Monitor,79571.6,2026-11-21,Customer reference not found
+T00005004,C00049,Laptop,77025.18,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00098,Laptop,38042.26,2026-11-21,Missing sale_id
+T00005051,C00017,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005052,C00009,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00005053,C99999,Mouse,19840.72,2026-11-21,Customer reference not found
+T00005054,C00097,Monitor,67197.7,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00047,Mouse,66255.25,2026-11-21,Missing sale_id
+T00005101,C00009,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00005102,C00069,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00005103,C99999,Monitor,16470.93,2026-11-21,Customer reference not found
+T00005104,C00085,Laptop,887.5,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00044,Keyboard,22806.63,2026-11-21,Missing sale_id
+T00005151,C00030,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00005152,C00074,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00005153,C99999,Monitor,71604.27,2026-11-21,Customer reference not found
+T00005154,C00031,Laptop,64637.53,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00026,Laptop,5483.83,2026-11-21,Missing sale_id
+T00005201,C00042,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00005202,C00067,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00005203,C99999,Monitor,34729.31,2026-11-21,Customer reference not found
+T00005204,C00066,Laptop,53338.97,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00071,Laptop,79891.7,2026-11-21,Missing sale_id
+T00005251,C00090,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005252,C00001,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00005253,C99999,Keyboard,78697.72,2026-11-21,Customer reference not found
+T00005254,C00047,Keyboard,53318.05,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00012,Laptop,13301.2,2026-11-21,Missing sale_id
+T00005301,C00043,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00005302,C00081,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00005303,C99999,Monitor,73137.01,2026-11-21,Customer reference not found
+T00005304,C00078,Mouse,73854.85,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00076,Mouse,35996.78,2026-11-21,Missing sale_id
+T00005351,C00054,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00005352,C00060,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00005353,C99999,Laptop,47471.55,2026-11-21,Customer reference not found
+T00005354,C00061,Monitor,44331.45,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00071,Keyboard,9668.27,2026-11-21,Missing sale_id
+T00005401,C00030,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005402,C00094,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00005403,C99999,Mouse,22196.27,2026-11-21,Customer reference not found
+T00005404,C00015,Laptop,52183.05,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00092,Laptop,66414.66,2026-11-21,Missing sale_id
+T00005451,C00069,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00005452,C00071,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00005453,C99999,Mouse,17555.79,2026-11-21,Customer reference not found
+T00005454,C00013,Laptop,20590.88,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00076,Monitor,9710.17,2026-11-21,Missing sale_id
+T00005501,C00006,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00005502,C00027,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00005503,C99999,Laptop,41484.61,2026-11-21,Customer reference not found
+T00005504,C00080,Monitor,5807.67,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00093,Laptop,59045.51,2026-11-21,Missing sale_id
+T00005551,C00054,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005552,C00093,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00005553,C99999,Keyboard,6665.25,2026-11-21,Customer reference not found
+T00005554,C00006,Monitor,23400.86,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00081,Monitor,12618.09,2026-11-21,Missing sale_id
+T00005601,C00038,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005602,C00068,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00005603,C99999,Mouse,60546.04,2026-11-21,Customer reference not found
+T00005604,C00053,Mouse,13731.0,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00093,Mouse,75333.85,2026-11-21,Missing sale_id
+T00005651,C00073,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00005652,C00099,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00005653,C99999,Mouse,71254.12,2026-11-21,Customer reference not found
+T00005654,C00014,Mouse,67150.99,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00029,Keyboard,62464.2,2026-11-21,Missing sale_id
+T00005701,C00036,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00005702,C00064,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00005703,C99999,Monitor,13068.75,2026-11-21,Customer reference not found
+T00005704,C00092,Monitor,70846.3,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00093,Monitor,61061.01,2026-11-21,Missing sale_id
+T00005751,C00064,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005752,C00067,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00005753,C99999,Keyboard,61186.43,2026-11-21,Customer reference not found
+T00005754,C00049,Mouse,6839.77,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00022,Mouse,17990.27,2026-11-21,Missing sale_id
+T00005801,C00051,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005802,C00079,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00005803,C99999,Mouse,54713.69,2026-11-21,Customer reference not found
+T00005804,C00095,Keyboard,63183.85,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00029,Mouse,43739.95,2026-11-21,Missing sale_id
+T00005851,C00044,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00005852,C00086,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00005853,C99999,Monitor,77166.38,2026-11-21,Customer reference not found
+T00005854,C00041,Keyboard,14304.23,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00017,Keyboard,76644.61,2026-11-21,Missing sale_id
+T00005901,C00004,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00005902,C00020,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00005903,C99999,Laptop,58651.13,2026-11-21,Customer reference not found
+T00005904,C00042,Laptop,51264.57,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00031,Mouse,18992.73,2026-11-21,Missing sale_id
+T00005951,C00097,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00005952,C00078,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00005953,C99999,Monitor,8449.99,2026-11-21,Customer reference not found
+T00005954,C00024,Laptop,9764.45,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00093,Laptop,35774.63,2026-11-21,Missing sale_id
+T00006001,C00018,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006002,C00001,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006003,C99999,Laptop,63801.0,2026-11-21,Customer reference not found
+T00006004,C00066,Laptop,3194.56,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00004,Monitor,44352.08,2026-11-21,Missing sale_id
+T00006051,C00049,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00006052,C00063,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006053,C99999,Monitor,45724.33,2026-11-21,Customer reference not found
+T00006054,C00032,Mouse,66490.23,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00098,Keyboard,35007.81,2026-11-21,Missing sale_id
+T00006101,C00055,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00006102,C00066,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006103,C99999,Laptop,12320.65,2026-11-21,Customer reference not found
+T00006104,C00044,Laptop,30936.22,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00021,Keyboard,46441.79,2026-11-21,Missing sale_id
+T00006151,C00032,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00006152,C00006,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006153,C99999,Laptop,33856.32,2026-11-21,Customer reference not found
+T00006154,C00094,Laptop,18242.83,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00077,Monitor,16650.61,2026-11-21,Missing sale_id
+T00006201,C00056,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006202,C00094,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00006203,C99999,Laptop,36950.22,2026-11-21,Customer reference not found
+T00006204,C00045,Mouse,29542.81,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00034,Mouse,24850.06,2026-11-21,Missing sale_id
+T00006251,C00030,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00006252,C00094,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00006253,C99999,Keyboard,10662.87,2026-11-21,Customer reference not found
+T00006254,C00027,Mouse,47432.19,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00021,Mouse,19137.55,2026-11-21,Missing sale_id
+T00006301,C00068,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006302,C00072,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006303,C99999,Monitor,62548.98,2026-11-21,Customer reference not found
+T00006304,C00010,Keyboard,2547.73,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00076,Monitor,14530.75,2026-11-21,Missing sale_id
+T00006351,C00006,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006352,C00057,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006353,C99999,Mouse,3603.63,2026-11-21,Customer reference not found
+T00006354,C00060,Laptop,64791.99,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00076,Keyboard,54470.79,2026-11-21,Missing sale_id
+T00006401,C00048,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006402,C00035,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006403,C99999,Laptop,53382.23,2026-11-21,Customer reference not found
+T00006404,C00024,Monitor,72099.24,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00073,Keyboard,69766.64,2026-11-21,Missing sale_id
+T00006451,C00074,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006452,C00029,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006453,C99999,Laptop,1317.14,2026-11-21,Customer reference not found
+T00006454,C00005,Laptop,51487.77,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00054,Laptop,28557.94,2026-11-21,Missing sale_id
+T00006501,C00036,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006502,C00096,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006503,C99999,Mouse,56117.95,2026-11-21,Customer reference not found
+T00006504,C00087,Mouse,58883.97,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00095,Laptop,10293.7,2026-11-21,Missing sale_id
+T00006551,C00066,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00006552,C00064,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006553,C99999,Mouse,51193.66,2026-11-21,Customer reference not found
+T00006554,C00093,Keyboard,72604.45,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00092,Laptop,52675.4,2026-11-21,Missing sale_id
+T00006601,C00027,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006602,C00085,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006603,C99999,Monitor,71145.49,2026-11-21,Customer reference not found
+T00006604,C00065,Monitor,20854.95,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00088,Monitor,3983.89,2026-11-21,Missing sale_id
+T00006651,C00071,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006652,C00072,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00006653,C99999,Monitor,73851.13,2026-11-21,Customer reference not found
+T00006654,C00098,Keyboard,42777.18,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00034,Monitor,38330.26,2026-11-21,Missing sale_id
+T00006701,C00062,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006702,C00078,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00006703,C99999,Monitor,54028.51,2026-11-21,Customer reference not found
+T00006704,C00004,Monitor,76735.59,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00090,Monitor,51934.99,2026-11-21,Missing sale_id
+T00006751,C00068,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006752,C00007,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006753,C99999,Monitor,57911.33,2026-11-21,Customer reference not found
+T00006754,C00028,Keyboard,8070.74,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00021,Laptop,77390.32,2026-11-21,Missing sale_id
+T00006801,C00044,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00006802,C00018,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00006803,C99999,Laptop,10989.74,2026-11-21,Customer reference not found
+T00006804,C00018,Keyboard,32161.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00014,Mouse,16432.45,2026-11-21,Missing sale_id
+T00006851,C00080,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006852,C00023,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006853,C99999,Laptop,39569.94,2026-11-21,Customer reference not found
+T00006854,C00023,Mouse,11454.19,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00064,Monitor,59900.22,2026-11-21,Missing sale_id
+T00006901,C00048,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006902,C00015,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00006903,C99999,Monitor,42909.26,2026-11-21,Customer reference not found
+T00006904,C00052,Keyboard,71501.0,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00014,Laptop,42513.98,2026-11-21,Missing sale_id
+T00006951,C00071,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00006952,C00014,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00006953,C99999,Mouse,53139.54,2026-11-21,Customer reference not found
+T00006954,C00021,Mouse,72015.51,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00092,Mouse,8022.03,2026-11-21,Missing sale_id
+T00007001,C00005,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007002,C00059,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00007003,C99999,Laptop,1544.45,2026-11-21,Customer reference not found
+T00007004,C00070,Mouse,21717.71,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00033,Keyboard,41654.67,2026-11-21,Missing sale_id
+T00007051,C00032,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00007052,C00024,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00007053,C99999,Monitor,19022.6,2026-11-21,Customer reference not found
+T00007054,C00100,Mouse,50701.26,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00060,Monitor,12648.53,2026-11-21,Missing sale_id
+T00007101,C00015,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00007102,C00071,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00007103,C99999,Laptop,42550.21,2026-11-21,Customer reference not found
+T00007104,C00030,Keyboard,13181.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00091,Laptop,43270.18,2026-11-21,Missing sale_id
+T00007151,C00044,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00007152,C00097,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00007153,C99999,Laptop,17440.93,2026-11-21,Customer reference not found
+T00007154,C00045,Monitor,45511.16,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00027,Keyboard,19435.36,2026-11-21,Missing sale_id
+T00007201,C00027,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00007202,C00096,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00007203,C99999,Mouse,17234.48,2026-11-21,Customer reference not found
+T00007204,C00037,Monitor,36015.62,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00033,Laptop,18680.6,2026-11-21,Missing sale_id
+T00007251,C00012,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00007252,C00049,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00007253,C99999,Laptop,52441.37,2026-11-21,Customer reference not found
+T00007254,C00064,Mouse,14932.47,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00004,Keyboard,25365.45,2026-11-21,Missing sale_id
+T00007301,C00022,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007302,C00063,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00007303,C99999,Keyboard,219.06,2026-11-21,Customer reference not found
+T00007304,C00027,Mouse,258.07,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00003,Laptop,43928.64,2026-11-21,Missing sale_id
+T00007351,C00099,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007352,C00043,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00007353,C99999,Monitor,75067.62,2026-11-21,Customer reference not found
+T00007354,C00081,Mouse,62925.51,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00042,Keyboard,45200.42,2026-11-21,Missing sale_id
+T00007401,C00082,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00007402,C00078,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00007403,C99999,Mouse,1473.63,2026-11-21,Customer reference not found
+T00007404,C00052,Keyboard,64102.28,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00083,Laptop,61336.55,2026-11-21,Missing sale_id
+T00007451,C00061,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007452,C00026,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00007453,C99999,Laptop,42884.36,2026-11-21,Customer reference not found
+T00007454,C00063,Keyboard,67016.35,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00006,Monitor,70276.7,2026-11-21,Missing sale_id
+T00007501,C00018,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007502,C00098,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00007503,C99999,Keyboard,20841.83,2026-11-21,Customer reference not found
+T00007504,C00049,Laptop,61017.94,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00077,Monitor,12946.01,2026-11-21,Missing sale_id
+T00007551,C00023,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007552,C00019,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00007553,C99999,Laptop,66889.74,2026-11-21,Customer reference not found
+T00007554,C00048,Monitor,34131.52,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00016,Monitor,8617.98,2026-11-21,Missing sale_id
+T00007601,C00002,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00007602,C00022,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00007603,C99999,Laptop,72339.06,2026-11-21,Customer reference not found
+T00007604,C00100,Keyboard,70581.13,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00031,Laptop,22431.48,2026-11-21,Missing sale_id
+T00007651,C00018,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00007652,C00014,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00007653,C99999,Monitor,38860.65,2026-11-21,Customer reference not found
+T00007654,C00076,Monitor,51053.13,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00034,Monitor,48476.62,2026-11-21,Missing sale_id
+T00007701,C00039,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00007702,C00076,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00007703,C99999,Laptop,33647.77,2026-11-21,Customer reference not found
+T00007704,C00003,Mouse,36966.15,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00085,Laptop,25697.63,2026-11-21,Missing sale_id
+T00007751,C00005,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007752,C00010,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00007753,C99999,Keyboard,39149.43,2026-11-21,Customer reference not found
+T00007754,C00083,Monitor,58989.43,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00038,Mouse,36503.29,2026-11-21,Missing sale_id
+T00007801,C00073,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00007802,C00072,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00007803,C99999,Mouse,61831.94,2026-11-21,Customer reference not found
+T00007804,C00030,Monitor,7325.92,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00095,Laptop,42758.09,2026-11-21,Missing sale_id
+T00007851,C00034,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00007852,C00042,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00007853,C99999,Keyboard,26787.23,2026-11-21,Customer reference not found
+T00007854,C00067,Monitor,72009.22,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00011,Mouse,975.07,2026-11-21,Missing sale_id
+T00007901,C00001,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00007902,C00007,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00007903,C99999,Laptop,76531.06,2026-11-21,Customer reference not found
+T00007904,C00040,Mouse,68247.27,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00037,Laptop,17496.4,2026-11-21,Missing sale_id
+T00007951,C00089,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00007952,C00089,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00007953,C99999,Keyboard,6368.71,2026-11-21,Customer reference not found
+T00007954,C00046,Monitor,15487.59,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00033,Laptop,48440.98,2026-11-21,Missing sale_id
+T00008001,C00008,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00008002,C00026,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008003,C99999,Keyboard,31293.08,2026-11-21,Customer reference not found
+T00008004,C00010,Keyboard,58362.65,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00074,Keyboard,33755.84,2026-11-21,Missing sale_id
+T00008051,C00052,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00008052,C00046,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008053,C99999,Laptop,5773.4,2026-11-21,Customer reference not found
+T00008054,C00026,Laptop,5521.34,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00030,Laptop,33910.52,2026-11-21,Missing sale_id
+T00008101,C00035,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00008102,C00050,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008103,C99999,Keyboard,34969.76,2026-11-21,Customer reference not found
+T00008104,C00089,Laptop,16218.99,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00029,Laptop,2453.41,2026-11-21,Missing sale_id
+T00008151,C00039,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00008152,C00082,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00008153,C99999,Monitor,59747.21,2026-11-21,Customer reference not found
+T00008154,C00090,Monitor,5230.7,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00066,Mouse,72728.58,2026-11-21,Missing sale_id
+T00008201,C00002,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00008202,C00078,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00008203,C99999,Monitor,10880.86,2026-11-21,Customer reference not found
+T00008204,C00035,Keyboard,79203.61,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00072,Keyboard,8850.32,2026-11-21,Missing sale_id
+T00008251,C00022,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00008252,C00074,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008253,C99999,Monitor,25377.04,2026-11-21,Customer reference not found
+T00008254,C00035,Monitor,4544.74,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00071,Keyboard,64812.59,2026-11-21,Missing sale_id
+T00008301,C00040,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00008302,C00069,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00008303,C99999,Keyboard,5204.92,2026-11-21,Customer reference not found
+T00008304,C00062,Laptop,52146.92,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00090,Laptop,60228.17,2026-11-21,Missing sale_id
+T00008351,C00037,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00008352,C00017,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00008353,C99999,Mouse,77690.37,2026-11-21,Customer reference not found
+T00008354,C00099,Laptop,64971.43,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00055,Keyboard,77542.63,2026-11-21,Missing sale_id
+T00008401,C00026,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00008402,C00015,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00008403,C99999,Monitor,42126.05,2026-11-21,Customer reference not found
+T00008404,C00060,Keyboard,17171.14,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00018,Laptop,23232.11,2026-11-21,Missing sale_id
+T00008451,C00033,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00008452,C00053,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00008453,C99999,Keyboard,14935.07,2026-11-21,Customer reference not found
+T00008454,C00052,Keyboard,61823.95,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00039,Monitor,34312.92,2026-11-21,Missing sale_id
+T00008501,C00036,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00008502,C00071,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008503,C99999,Monitor,58580.05,2026-11-21,Customer reference not found
+T00008504,C00074,Mouse,9514.19,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00016,Keyboard,31918.73,2026-11-21,Missing sale_id
+T00008551,C00076,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00008552,C00070,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00008553,C99999,Monitor,8000.68,2026-11-21,Customer reference not found
+T00008554,C00090,Laptop,63278.18,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00015,Mouse,70164.71,2026-11-21,Missing sale_id
+T00008601,C00034,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00008602,C00066,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00008603,C99999,Laptop,374.09,2026-11-21,Customer reference not found
+T00008604,C00082,Monitor,32793.33,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00077,Laptop,53818.03,2026-11-21,Missing sale_id
+T00008651,C00078,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00008652,C00007,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00008653,C99999,Monitor,1280.34,2026-11-21,Customer reference not found
+T00008654,C00009,Laptop,31141.73,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00054,Monitor,19323.36,2026-11-21,Missing sale_id
+T00008701,C00031,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00008702,C00080,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00008703,C99999,Laptop,48335.85,2026-11-21,Customer reference not found
+T00008704,C00001,Laptop,51725.6,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00024,Keyboard,34479.92,2026-11-21,Missing sale_id
+T00008751,C00097,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00008752,C00085,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00008753,C99999,Monitor,27465.63,2026-11-21,Customer reference not found
+T00008754,C00010,Keyboard,71651.79,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00068,Mouse,3395.41,2026-11-21,Missing sale_id
+T00008801,C00015,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00008802,C00020,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008803,C99999,Keyboard,40320.05,2026-11-21,Customer reference not found
+T00008804,C00035,Mouse,31077.09,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00033,Mouse,16446.96,2026-11-21,Missing sale_id
+T00008851,C00033,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00008852,C00009,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00008853,C99999,Mouse,43680.04,2026-11-21,Customer reference not found
+T00008854,C00032,Keyboard,76153.24,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00032,Mouse,22654.86,2026-11-21,Missing sale_id
+T00008901,C00024,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00008902,C00075,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00008903,C99999,Laptop,36746.51,2026-11-21,Customer reference not found
+T00008904,C00047,Keyboard,38311.44,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00032,Monitor,4100.5,2026-11-21,Missing sale_id
+T00008951,C00054,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00008952,C00099,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00008953,C99999,Laptop,40996.41,2026-11-21,Customer reference not found
+T00008954,C00011,Mouse,78805.12,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00087,Monitor,41641.03,2026-11-21,Missing sale_id
+T00009001,C00001,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009002,C00077,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00009003,C99999,Monitor,28031.5,2026-11-21,Customer reference not found
+T00009004,C00060,Laptop,50154.1,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00083,Laptop,61937.92,2026-11-21,Missing sale_id
+T00009051,C00052,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00009052,C00002,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00009053,C99999,Mouse,73429.5,2026-11-21,Customer reference not found
+T00009054,C00098,Mouse,45414.85,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00090,Monitor,35802.24,2026-11-21,Missing sale_id
+T00009101,C00031,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00009102,C00056,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009103,C99999,Keyboard,2695.64,2026-11-21,Customer reference not found
+T00009104,C00043,Mouse,73423.06,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00017,Monitor,35312.99,2026-11-21,Missing sale_id
+T00009151,C00065,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00009152,C00051,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00009153,C99999,Laptop,21848.83,2026-11-21,Customer reference not found
+T00009154,C00078,Mouse,21924.09,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00088,Monitor,54385.66,2026-11-21,Missing sale_id
+T00009201,C00028,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00009202,C00009,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00009203,C99999,Monitor,14155.11,2026-11-21,Customer reference not found
+T00009204,C00055,Mouse,58228.95,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00001,Keyboard,76119.1,2026-11-21,Missing sale_id
+T00009251,C00022,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00009252,C00027,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00009253,C99999,Monitor,27909.92,2026-11-21,Customer reference not found
+T00009254,C00088,Mouse,9282.05,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00029,Mouse,33785.18,2026-11-21,Missing sale_id
+T00009301,C00032,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009302,C00056,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00009303,C99999,Laptop,71335.65,2026-11-21,Customer reference not found
+T00009304,C00013,Keyboard,23286.12,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00022,Keyboard,60886.26,2026-11-21,Missing sale_id
+T00009351,C00062,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00009352,C00055,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009353,C99999,Keyboard,48115.08,2026-11-21,Customer reference not found
+T00009354,C00061,Monitor,26318.17,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00034,Monitor,10055.6,2026-11-21,Missing sale_id
+T00009401,C00011,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009402,C00038,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00009403,C99999,Monitor,36827.35,2026-11-21,Customer reference not found
+T00009404,C00068,Monitor,60743.04,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00007,Mouse,31044.57,2026-11-21,Missing sale_id
+T00009451,C00095,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009452,C00075,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00009453,C99999,Laptop,48040.56,2026-11-21,Customer reference not found
+T00009454,C00098,Monitor,66700.49,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00011,Laptop,43854.72,2026-11-21,Missing sale_id
+T00009501,C00087,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00009502,C00071,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009503,C99999,Laptop,30205.5,2026-11-21,Customer reference not found
+T00009504,C00045,Mouse,17289.06,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00027,Laptop,47048.97,2026-11-21,Missing sale_id
+T00009551,C00021,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009552,C00083,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009553,C99999,Keyboard,49293.2,2026-11-21,Customer reference not found
+T00009554,C00095,Mouse,20401.68,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00025,Monitor,75148.12,2026-11-21,Missing sale_id
+T00009601,C00020,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009602,C00085,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00009603,C99999,Mouse,57380.64,2026-11-21,Customer reference not found
+T00009604,C00001,Laptop,42202.69,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00020,Mouse,29943.98,2026-11-21,Missing sale_id
+T00009651,C00068,Monitor,-10,2026-11-21,Amount must be greater than zero
+T00009652,C00096,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009653,C99999,Keyboard,20971.05,2026-11-21,Customer reference not found
+T00009654,C00054,Laptop,27669.52,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00075,Mouse,71410.45,2026-11-21,Missing sale_id
+T00009701,C00043,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00009702,C00030,Keyboard,not-a-number,2026-11-21,Amount is not numeric
+T00009703,C99999,Mouse,53090.66,2026-11-21,Customer reference not found
+T00009704,C00085,Keyboard,55569.33,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00062,Mouse,13918.61,2026-11-21,Missing sale_id
+T00009751,C00011,Mouse,-10,2026-11-21,Amount must be greater than zero
+T00009752,C00045,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00009753,C99999,Laptop,6045.41,2026-11-21,Customer reference not found
+T00009754,C00025,Laptop,48327.72,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00040,Mouse,39450.66,2026-11-21,Missing sale_id
+T00009801,C00074,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00009802,C00085,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009803,C99999,Mouse,62060.82,2026-11-21,Customer reference not found
+T00009804,C00049,Mouse,59262.96,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00048,Laptop,38706.31,2026-11-21,Missing sale_id
+T00009851,C00064,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00009852,C00090,Laptop,not-a-number,2026-11-21,Amount is not numeric
+T00009853,C99999,Monitor,40075.33,2026-11-21,Customer reference not found
+T00009854,C00008,Keyboard,5989.74,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00033,Monitor,484.54,2026-11-21,Missing sale_id
+T00009901,C00060,Laptop,-10,2026-11-21,Amount must be greater than zero
+T00009902,C00027,Monitor,not-a-number,2026-11-21,Amount is not numeric
+T00009903,C99999,Monitor,37528.03,2026-11-21,Customer reference not found
+T00009904,C00024,Monitor,5673.75,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00011,Laptop,75713.56,2026-11-21,Missing sale_id
+T00009951,C00003,Keyboard,-10,2026-11-21,Amount must be greater than zero
+T00009952,C00006,Mouse,not-a-number,2026-11-21,Amount is not numeric
+T00009953,C99999,Keyboard,54813.5,2026-11-21,Customer reference not found
+T00009954,C00020,Laptop,11856.45,21-11-2026,sale_date must use YYYY-MM-DD format
+,C00021,Laptop,6673.3,2026-11-21,Missing sale_id

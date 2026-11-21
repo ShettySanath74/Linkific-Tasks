@@ -1,0 +1,5 @@
+sale_id,customer_id,customer_name,city,product,amount,sale_date
+S001,C001,Rahul,Bangalore,Laptop,55000.0,2026-11-18
+S002,C002,Priya,Mangalore,Keyboard,2500.0,2026-11-18
+S003,C001,Rahul,Bangalore,Mouse,1200.0,2026-11-19
+S004,C003,Arjun,Mysore,Monitor,14500.0,2026-11-19

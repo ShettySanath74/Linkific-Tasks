@@ -1,0 +1,166 @@
+2026-11-21 12:26:44,295 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:26:44,299 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 12:26:44,301 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:26:44,312 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpzwfyo0eo/warehouse.db
+2026-11-21 12:26:44,316 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpzwfyo0eo/warehouse.db
+2026-11-21 12:26:44,318 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:26:44,320 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:26:44,321 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:26:44,330 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmp1clxkjek/warehouse.db
+2026-11-21 12:26:44,331 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:26:44,333 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:26:44,334 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:26:44,336 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:26:44,337 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:26:44,547 | INFO | scripts.extract | Extracted 4 rows from customers.csv
+2026-11-21 12:26:44,548 | INFO | scripts.extract | Extracted 6 rows from sales.csv
+2026-11-21 12:26:44,549 | INFO | scripts.transform | Transformation complete: 4 accepted, 2 rejected
+2026-11-21 12:26:44,558 | INFO | scripts.load | Loaded/upserted 4 sales into /mnt/data/Day_27_Complete_Project/outputs/warehouse.db
+2026-11-21 12:26:44,559 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:26:44,565 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:26:44,571 | INFO | scripts.extract | Extracted 1000 rows from sales_1000.csv
+2026-11-21 12:26:44,578 | INFO | scripts.transform | Transformation complete: 900 accepted, 100 rejected
+2026-11-21 12:26:44,590 | INFO | scripts.load | Loaded/upserted 900 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_1000.db
+2026-11-21 12:26:44,636 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:26:44,691 | INFO | scripts.extract | Extracted 10000 rows from sales_10000.csv
+2026-11-21 12:26:44,829 | INFO | scripts.transform | Transformation complete: 9000 accepted, 1000 rejected
+2026-11-21 12:26:44,883 | INFO | scripts.load | Loaded/upserted 9000 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_10000.db
+2026-11-21 12:26:45,303 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:26:45,925 | INFO | scripts.extract | Extracted 100000 rows from sales_100000.csv
+2026-11-21 12:26:46,629 | INFO | scripts.transform | Transformation complete: 90000 accepted, 10000 rejected
+2026-11-21 12:26:47,174 | INFO | scripts.load | Loaded/upserted 90000 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_100000.db
+2026-11-21 12:27:15,907 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:27:15,911 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 12:27:15,913 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:27:15,923 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpo95gpqzi/warehouse.db
+2026-11-21 12:27:15,928 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpo95gpqzi/warehouse.db
+2026-11-21 12:27:15,929 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:27:15,933 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:27:15,935 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:27:15,943 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmp1i20vdrt/warehouse.db
+2026-11-21 12:27:15,944 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:27:15,945 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:27:15,947 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:27:15,948 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:27:15,950 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:27:16,254 | INFO | scripts.extract | Extracted 4 rows from customers.csv
+2026-11-21 12:27:16,255 | INFO | scripts.extract | Extracted 6 rows from sales.csv
+2026-11-21 12:27:16,255 | INFO | scripts.transform | Transformation complete: 4 accepted, 2 rejected
+2026-11-21 12:27:16,262 | INFO | scripts.load | Loaded/upserted 4 sales into /mnt/data/Day_27_Complete_Project/outputs/warehouse.db
+2026-11-21 12:27:16,264 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:27:16,270 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:27:16,276 | INFO | scripts.extract | Extracted 1000 rows from sales_1000.csv
+2026-11-21 12:27:16,281 | INFO | scripts.transform | Transformation complete: 900 accepted, 100 rejected
+2026-11-21 12:27:16,300 | INFO | scripts.load | Loaded/upserted 900 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_1000.db
+2026-11-21 12:27:16,350 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:27:16,430 | INFO | scripts.extract | Extracted 10000 rows from sales_10000.csv
+2026-11-21 12:27:16,544 | INFO | scripts.transform | Transformation complete: 9000 accepted, 1000 rejected
+2026-11-21 12:27:16,595 | INFO | scripts.load | Loaded/upserted 9000 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_10000.db
+2026-11-21 12:27:17,050 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:27:17,619 | INFO | scripts.extract | Extracted 100000 rows from sales_100000.csv
+2026-11-21 12:27:18,189 | INFO | scripts.transform | Transformation complete: 90000 accepted, 10000 rejected
+2026-11-21 12:27:18,882 | INFO | scripts.load | Loaded/upserted 90000 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_100000.db
+2026-11-21 12:33:34,534 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:34,537 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 12:33:34,538 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:33:34,547 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpolh8bujo/warehouse.db
+2026-11-21 12:33:34,552 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpolh8bujo/warehouse.db
+2026-11-21 12:33:34,554 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:34,556 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:34,557 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:33:34,567 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpxhylb3nw/warehouse.db
+2026-11-21 12:33:34,568 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:33:34,569 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:34,571 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:33:34,573 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:34,575 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,558 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,560 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 12:33:40,561 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:33:40,573 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmp4iribjey/warehouse.db
+2026-11-21 12:33:40,576 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmp4iribjey/warehouse.db
+2026-11-21 12:33:40,578 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,580 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,585 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:33:40,594 | INFO | scripts.load | Loaded/upserted 1 sales into /tmp/tmpg_wzfotp/warehouse.db
+2026-11-21 12:33:40,596 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:33:40,599 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,602 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 12:33:40,603 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,605 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 12:33:40,793 | INFO | scripts.extract | Extracted 4 rows from customers.csv
+2026-11-21 12:33:40,794 | INFO | scripts.extract | Extracted 6 rows from sales.csv
+2026-11-21 12:33:40,796 | INFO | scripts.transform | Transformation complete: 4 accepted, 2 rejected
+2026-11-21 12:33:40,802 | INFO | scripts.load | Loaded/upserted 4 sales into /mnt/data/Day_27_Complete_Project/outputs/warehouse.db
+2026-11-21 12:33:40,803 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 12:33:40,809 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:33:40,816 | INFO | scripts.extract | Extracted 1000 rows from sales_1000.csv
+2026-11-21 12:33:40,821 | INFO | scripts.transform | Transformation complete: 900 accepted, 100 rejected
+2026-11-21 12:33:40,832 | INFO | scripts.load | Loaded/upserted 900 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_1000.db
+2026-11-21 12:33:40,877 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:33:40,926 | INFO | scripts.extract | Extracted 10000 rows from sales_10000.csv
+2026-11-21 12:33:41,024 | INFO | scripts.transform | Transformation complete: 9000 accepted, 1000 rejected
+2026-11-21 12:33:41,074 | INFO | scripts.load | Loaded/upserted 9000 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_10000.db
+2026-11-21 12:33:41,507 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 12:33:41,970 | INFO | scripts.extract | Extracted 100000 rows from sales_100000.csv
+2026-11-21 12:33:42,498 | INFO | scripts.transform | Transformation complete: 90000 accepted, 10000 rejected
+2026-11-21 12:33:42,962 | INFO | scripts.load | Loaded/upserted 90000 sales into /mnt/data/Day_27_Complete_Project/outputs/performance/bench_100000.db
+2026-11-21 18:06:02,536 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:06:02,593 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 18:06:02,650 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:06:02,689 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpjfmjz128\warehouse.db
+2026-11-21 18:06:02,710 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpjfmjz128\warehouse.db
+2026-11-21 18:06:02,838 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:06:02,927 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:06:02,978 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:06:03,011 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpyqxr806m\warehouse.db
+2026-11-21 18:06:03,028 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 18:06:03,076 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:06:03,150 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:06:03,235 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:06:03,294 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:07:02,627 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:07:02,649 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 18:07:02,677 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:07:02,698 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpwwb4cpvn\warehouse.db
+2026-11-21 18:07:02,709 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpwwb4cpvn\warehouse.db
+2026-11-21 18:07:02,734 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:07:02,769 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:07:02,794 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:07:02,817 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpistzl6cj\warehouse.db
+2026-11-21 18:07:02,826 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 18:07:02,843 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:07:02,864 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:07:02,887 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:07:02,900 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,031 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,056 | INFO | scripts.transform | Transformation complete: 1 accepted, 1 rejected
+2026-11-21 18:08:25,080 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:08:25,113 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpfd_fm5_w\warehouse.db
+2026-11-21 18:08:25,131 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpfd_fm5_w\warehouse.db
+2026-11-21 18:08:25,153 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,182 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,210 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:08:25,233 | INFO | scripts.load | Loaded/upserted 1 sales into C:\Users\Comp\AppData\Local\Temp\tmpg8y3qgdl\warehouse.db
+2026-11-21 18:08:25,244 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 18:08:25,263 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,286 | INFO | scripts.transform | Transformation complete: 1 accepted, 0 rejected
+2026-11-21 18:08:25,310 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,324 | INFO | scripts.transform | Transformation complete: 0 accepted, 1 rejected
+2026-11-21 18:08:25,385 | INFO | scripts.extract | Extracted 4 rows from customers.csv
+2026-11-21 18:08:25,391 | INFO | scripts.extract | Extracted 6 rows from sales.csv
+2026-11-21 18:08:25,428 | INFO | scripts.transform | Transformation complete: 4 accepted, 2 rejected
+2026-11-21 18:08:25,461 | INFO | scripts.load | Loaded/upserted 4 sales into C:\Users\Comp\Linkific-Tasks-Upload\Day 27\outputs\warehouse.db
+2026-11-21 18:08:25,472 | INFO | scripts.quality_check | Quality checks PASSED: {'all_batch_records_loaded': True, 'no_duplicate_sale_ids': True, 'all_amounts_positive': True, 'customer_ids_present': True}
+2026-11-21 18:08:25,539 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 18:08:25,612 | INFO | scripts.extract | Extracted 1000 rows from sales_1000.csv
+2026-11-21 18:08:25,714 | INFO | scripts.transform | Transformation complete: 900 accepted, 100 rejected
+2026-11-21 18:08:25,800 | INFO | scripts.load | Loaded/upserted 900 sales into C:\Users\Comp\Linkific-Tasks-Upload\Day 27\outputs\performance\bench_1000.db
+2026-11-21 18:08:26,060 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 18:08:26,243 | INFO | scripts.extract | Extracted 10000 rows from sales_10000.csv
+2026-11-21 18:08:26,426 | INFO | scripts.transform | Transformation complete: 9000 accepted, 1000 rejected
+2026-11-21 18:08:26,603 | INFO | scripts.load | Loaded/upserted 9000 sales into C:\Users\Comp\Linkific-Tasks-Upload\Day 27\outputs\performance\bench_10000.db
+2026-11-21 18:08:27,682 | INFO | scripts.extract | Extracted 100 rows from customers.csv
+2026-11-21 18:08:29,032 | INFO | scripts.extract | Extracted 100000 rows from sales_100000.csv
+2026-11-21 18:08:30,419 | INFO | scripts.transform | Transformation complete: 90000 accepted, 10000 rejected
+2026-11-21 18:08:31,733 | INFO | scripts.load | Loaded/upserted 90000 sales into C:\Users\Comp\Linkific-Tasks-Upload\Day 27\outputs\performance\bench_100000.db

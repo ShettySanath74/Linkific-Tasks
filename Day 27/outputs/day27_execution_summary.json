@@ -1,0 +1,112 @@
+{
+  "automated_tests": "PASSED",
+  "sample_pipeline": "PASSED",
+  "quality_report": "C:\\Users\\Comp\\Linkific-Tasks-Upload\\Day 27\\outputs\\quality_report.json",
+  "synthetic_datasets": [
+    "C:\\Users\\Comp\\Linkific-Tasks-Upload\\Day 27\\data\\test_data\\sales_100.csv",
+    "C:\\Users\\Comp\\Linkific-Tasks-Upload\\Day 27\\data\\test_data\\sales_1000.csv",
+    "C:\\Users\\Comp\\Linkific-Tasks-Upload\\Day 27\\data\\test_data\\sales_10000.csv",
+    "C:\\Users\\Comp\\Linkific-Tasks-Upload\\Day 27\\data\\test_data\\sales_100000.csv"
+  ],
+  "performance_report": "C:\\Users\\Comp\\Linkific-Tasks-Upload\\Day 27\\outputs\\performance\\performance_report.json",
+  "benchmark_results": [
+    {
+      "input_records": 1000,
+      "accepted_records": 900,
+      "rejected_records": 100,
+      "elapsed_seconds": 0.3034,
+      "records_per_second": 3295.68,
+      "indexed_query_ms": 1.4422,
+      "unindexed_query_ms": 1.7279,
+      "query_plan_with_index": "3 0 51 SEARCH sales USING INDEX idx_sales_customer_date (customer_id=? AND sale_date>?)"
+    },
+    {
+      "input_records": 10000,
+      "accepted_records": 9000,
+      "rejected_records": 1000,
+      "elapsed_seconds": 0.5571,
+      "records_per_second": 17951.02,
+      "indexed_query_ms": 1.4594,
+      "unindexed_query_ms": 7.3277,
+      "query_plan_with_index": "3 0 51 SEARCH sales USING INDEX idx_sales_customer_date (customer_id=? AND sale_date>?)"
+    },
+    {
+      "input_records": 100000,
+      "accepted_records": 90000,
+      "rejected_records": 10000,
+      "elapsed_seconds": 4.1132,
+      "records_per_second": 24311.68,
+      "indexed_query_ms": 0.8201,
+      "unindexed_query_ms": 34.0623,
+      "query_plan_with_index": "3 0 51 SEARCH sales USING INDEX idx_sales_customer_date (customer_id=? AND sale_date>?)"
+    }
+  ],
+  "parallel_comparison": {
+    "records": 10000,
+    "sequential_validated": 9000,
+    "parallel_validated": 9000,
+    "sequential_seconds": 0.0196,
+    "parallel_seconds": 0.02126,
+    "parallel_speedup": 0.922,
+    "note": "Threading is an experiment; Python's GIL and small workloads can make it slower. Results must be measured."
+  },
+  "validation_metrics": {
+    "true_positive_invalid_rejected": 6,
+    "true_negative_valid_accepted": 2,
+    "false_positive_valid_rejected": 0,
+    "false_negative_invalid_accepted": 0,
+    "cases": 8,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "sale_id": "A1",
+        "expected_invalid": false,
+        "actual_invalid": false,
+        "reason": ""
+      },
+      {
+        "sale_id": "A2",
+        "expected_invalid": true,
+        "actual_invalid": true,
+        "reason": "Amount must be greater than zero"
+      },
+      {
+        "sale_id": "A3",
+        "expected_invalid": true,
+        "actual_invalid": true,
+        "reason": "Amount must be greater than zero"
+      },
+      {
+        "sale_id": "A4",
+        "expected_invalid": true,
+        "actual_invalid": true,
+        "reason": "Customer reference not found"
+      },
+      {
+        "sale_id": "A5",
+        "expected_invalid": true,
+        "actual_invalid": true,
+        "reason": "Amount is not numeric"
+      },
+      {
+        "sale_id": "A6",
+        "expected_invalid": true,
+        "actual_invalid": true,
+        "reason": "sale_date must use YYYY-MM-DD format"
+      },
+      {
+        "sale_id": "",
+        "expected_invalid": true,
+        "actual_invalid": true,
+        "reason": "Missing sale_id"
+      },
+      {
+        "sale_id": "A8",
+        "expected_invalid": false,
+        "actual_invalid": false,
+        "reason": ""
+      }
+    ],
+    "note": "Synthetic labelled validation cases; this measures rule behavior on these fixtures, not production-wide accuracy."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "records": 10000,
+  "sequential_validated": 9000,
+  "parallel_validated": 9000,
+  "sequential_seconds": 0.0196,
+  "parallel_seconds": 0.02126,
+  "parallel_speedup": 0.922,
+  "note": "Threading is an experiment; Python's GIL and small workloads can make it slower. Results must be measured."
+}

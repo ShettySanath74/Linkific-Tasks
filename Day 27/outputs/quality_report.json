@@ -1,0 +1,15 @@
+{
+  "status": "PASSED",
+  "expected_records_in_current_batch": 4,
+  "warehouse_total_records": 4,
+  "missing_batch_records": 0,
+  "duplicate_sale_ids": 0,
+  "invalid_amounts": 0,
+  "missing_customer_ids": 0,
+  "checks": {
+    "all_batch_records_loaded": true,
+    "no_duplicate_sale_ids": true,
+    "all_amounts_positive": true,
+    "customer_ids_present": true
+  }
+}
