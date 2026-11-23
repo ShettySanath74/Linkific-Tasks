@@ -1,0 +1,36 @@
+-- Create these measures in Power BI (Modeling > New measure).
+-- Assumes tables: Orders, Order_Items, Products, Customers.
+-- Relationships: Customers[customer_id] 1:* Orders[customer_id];
+-- Orders[order_id] 1:* Order_Items[order_id];
+-- Products[product_id] 1:* Order_Items[product_id].
+
+Completed Orders =
+CALCULATE(DISTINCTCOUNT(Orders[order_id]), Orders[order_status] = "Completed")
+
+Total Revenue =
+CALCULATE(SUM(Order_Items[line_revenue]), Orders[order_status] = "Completed")
+
+Total Cost =
+CALCULATE(
+    SUMX(Order_Items, Order_Items[quantity] * RELATED(Products[unit_cost])),
+    Orders[order_status] = "Completed"
+)
+
+Estimated Profit = [Total Revenue] - [Total Cost]
+
+Profit Margin % = DIVIDE([Estimated Profit], [Total Revenue])
+
+Unique Customers =
+CALCULATE(DISTINCTCOUNT(Orders[customer_id]), Orders[order_status] = "Completed")
+
+Average Order Value =
+DIVIDE([Total Revenue], [Completed Orders])
+
+Units Sold =
+CALCULATE(SUM(Order_Items[quantity]), Orders[order_status] = "Completed")
+
+Returned Orders =
+CALCULATE(DISTINCTCOUNT(Orders[order_id]), Orders[order_status] = "Returned")
+
+Cancelled Orders =
+CALCULATE(DISTINCTCOUNT(Orders[order_id]), Orders[order_status] = "Cancelled")

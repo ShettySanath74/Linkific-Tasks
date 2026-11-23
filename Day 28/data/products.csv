@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,unit_cost
+1,Wireless Mouse,Electronics,25,12
+2,Keyboard,Electronics,45,22
+3,Headphones,Electronics,75,38
+4,Monitor,Electronics,220,145
+5,USB Hub,Electronics,30,14
+6,Desk Lamp,Home,35,16
+7,Storage Box,Home,18,7
+8,Office Chair,Home,180,105
+9,Water Bottle,Home,22,9
+10,Bookshelf,Home,130,78
+11,T-Shirt,Clothing,20,8
+12,Hoodie,Clothing,55,25
+13,Jeans,Clothing,65,31
+14,Jacket,Clothing,110,60
+15,Sneakers,Clothing,90,48
+16,Data Analytics,Books,32,14
+17,Business Strategy,Books,28,12
+18,Python Guide,Books,40,18
+19,SQL Handbook,Books,35,15
+20,Marketing Basics,Books,25,10
