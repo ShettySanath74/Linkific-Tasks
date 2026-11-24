@@ -1,0 +1,76 @@
+{
+  "generated_at_utc": "2026-11-24T14:06:54.307403+00:00",
+  "method": "Five-run average after one warm-up; same database copy",
+  "source_database": "Day 28\\data\\sales_analytics.db",
+  "test_database": "Day 29\\outputs\\sales_analytics_optimization_test.db",
+  "indexes_created": [
+    "idx_orders_status_date",
+    "idx_orders_status_customer",
+    "idx_order_items_order",
+    "idx_order_items_product",
+    "idx_customers_customer",
+    "idx_products_product"
+  ],
+  "results": [
+    {
+      "query": 1,
+      "baseline_seconds": 0.025592,
+      "optimized_seconds": 0.026582,
+      "improvement_percent": -3.87
+    },
+    {
+      "query": 2,
+      "baseline_seconds": 0.023685,
+      "optimized_seconds": 0.03406,
+      "improvement_percent": -43.8
+    },
+    {
+      "query": 3,
+      "baseline_seconds": 0.026019,
+      "optimized_seconds": 0.031062,
+      "improvement_percent": -19.38
+    },
+    {
+      "query": 4,
+      "baseline_seconds": 0.028392,
+      "optimized_seconds": 0.043416,
+      "improvement_percent": -52.91
+    },
+    {
+      "query": 5,
+      "baseline_seconds": 0.025251,
+      "optimized_seconds": 0.019876,
+      "improvement_percent": 21.29
+    },
+    {
+      "query": 6,
+      "baseline_seconds": 0.036262,
+      "optimized_seconds": 0.023588,
+      "improvement_percent": 34.95
+    },
+    {
+      "query": 7,
+      "baseline_seconds": 0.004587,
+      "optimized_seconds": 0.000882,
+      "improvement_percent": 80.77
+    },
+    {
+      "query": 8,
+      "baseline_seconds": 0.019095,
+      "optimized_seconds": 0.018901,
+      "improvement_percent": 1.02
+    },
+    {
+      "query": 9,
+      "baseline_seconds": 0.020194,
+      "optimized_seconds": 0.014214,
+      "improvement_percent": 29.61
+    },
+    {
+      "query": 10,
+      "baseline_seconds": 0.038191,
+      "optimized_seconds": 0.017154,
+      "improvement_percent": 55.08
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+file,status,size_bytes,row_count,column_count,blank_cells,duplicate_rows,inconsistent_rows,issues
+customers.csv,ok,6375,150,5,0,0,0,
+order_items.csv,ok,33365,1326,7,0,0,0,
+orders.csv,ok,29974,850,5,0,0,0,
+products.csv,ok,631,20,5,0,0,0,

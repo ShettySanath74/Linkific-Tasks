@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-11-24T13:58:33.138028+00:00",
+  "method": "Python csv.reader; elapsed wall-clock time using perf_counter",
+  "results": [
+    {
+      "file": "customers.csv",
+      "size_bytes": 6375,
+      "data_rows": 150,
+      "columns": 5,
+      "read_seconds": 0.033384,
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "file": "order_items.csv",
+      "size_bytes": 33365,
+      "data_rows": 1326,
+      "columns": 7,
+      "read_seconds": 0.023038,
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "file": "orders.csv",
+      "size_bytes": 29974,
+      "data_rows": 850,
+      "columns": 5,
+      "read_seconds": 0.015168,
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "file": "products.csv",
+      "size_bytes": 631,
+      "data_rows": 20,
+      "columns": 5,
+      "read_seconds": 0.00234,
+      "status": "ok",
+      "error": ""
+    }
+  ]
+}

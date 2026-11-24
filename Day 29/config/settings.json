@@ -1,0 +1,10 @@
+{
+  "description": "Portable defaults for Day 29 validation toolkit.",
+  "expected_encoding": "utf-8-sig",
+  "csv_delimiter": ",",
+  "blank_values": [
+    "",
+    " "
+  ],
+  "notes": "Add business-specific validation rules only after confirming the actual Day 28 schema."
+}
